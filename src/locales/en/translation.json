@@ -1,5 +1,8 @@
 {
-    "Kotisivu": {
-        "otsikko" : "Home page"
+    "Hero": {
+        "otsikko1" : "Hello, my name is",
+        "otsikko2" : "Maija.",
+        "otsikko3" : "Welcome to my online resume."
+
     }
 }

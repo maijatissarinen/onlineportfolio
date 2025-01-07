@@ -1,0 +1,16 @@
+
+.hero-container {
+    margin-left: 50%;
+    margin-top: 20%;
+    margin-bottom: 20%;
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    margin: 0;
+    margin-bottom: 5%;
+}
+
+.hero-container h3 {
+    margin: 0;
+}

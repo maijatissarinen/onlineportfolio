@@ -1,5 +1,8 @@
 {
-    "Kotisivu": {
-        "otsikko" : "Kotisivu"
+    "Hero": {
+        "otsikko1" : "Hei, nimeni on",
+        "otsikko2" : "Maija.",
+        "otsikko3" : "Tervetuloa ansioluettelooni."
+
     }
 }
