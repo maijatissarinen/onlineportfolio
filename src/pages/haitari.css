@@ -1,0 +1,24 @@
+.accordion-item {
+    width: 70%;
+    margin: auto;
+}
+
+.accordion-button {
+    width: 100%;
+    padding: 15px;
+    background-color: #FFF;
+    border-bottom: solid 1px;
+    border-right: none;
+    border-top: none;
+    border-left: none;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+    font-size: 1rem;
+}
+
+#junior-button {
+    border-top: solid 1px;
+    border-bottom: solid 0.5px;
+}
+

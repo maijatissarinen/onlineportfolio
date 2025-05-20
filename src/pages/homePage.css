@@ -1,16 +1,31 @@
+/* Importing the font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+.body {
+    background-color: #ffffff;
+    font-size: 16px;
+    margin: auto;
+    font-family: "DM Sans", serif;
+    width: 80%;
+    text-align: left;
+}
 
 .hero-container {
-    margin-left: 50%;
-    margin-top: 20%;
-    margin-bottom: 20%;
+    padding-left: 50%;
+    padding-top: 20%;
+    padding-bottom: 20%;
 }
 
 .hero-container h1 {
     font-size: 60px;
     margin: 0;
-    margin-bottom: 5%;
 }
 
 .hero-container h3 {
     margin: 0;
+}
+
+#work {
+    padding-top: 10%;
+    padding-bottom: 20%;
 }
