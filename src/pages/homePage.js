@@ -3,12 +3,12 @@ import AccordionItem from '../components/accordionItem';
 import './homePage.css'
 import './haitari.css'
 import { useTranslation } from 'react-i18next';
-import { useState } from 'react';
 
 function HomePage() {
     const {t} = useTranslation();
     return (
-        <div class="body">
+        <div className='main'>
+
             <section id="hero">
                 <div class="hero-container">
                     <h3>{t("Hero.otsikko1")}</h3>
@@ -16,10 +16,11 @@ function HomePage() {
                     <h3>{t("Hero.otsikko3")}</h3>
                 </div>
             </section>
+
             <section id="about">
                 <div class="about-container">
                     <h1>{t("About.aboutOtsikko")}</h1>
-                    <article>
+                    <article class="about-desc">
                         <p>{t("About.about1")}</p>
                         <p>{t("About.about2")}</p>
                         <p>{t("About.about3")}</p>
@@ -46,15 +47,17 @@ function HomePage() {
                         title={t("Work.ge.otsikko")}
                         time={t("Work.ge.time")}
                         desc={t("Work.ge.desc")} />
-
                     {/* Lidl button */}
                     <AccordionItem 
                         title={t("Work.lidl.otsikko")}
                         time={t("Work.lidl.time")}
                         desc={t("Work.lidl.desc")} />
                 </div>
-                
             </section>
+
+            <section id="edu">
+                <h1>{t("Edu.otsikko")}</h1>
+            </section>       
         </div>
     );
 }

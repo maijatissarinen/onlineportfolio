@@ -6,8 +6,14 @@
 
     },
 
+    "Nav": {
+        "about" : "About",
+        "work" : "Work Experience",
+        "edu" : "Education"
+    },
+
     "About": {
-        "aboutOtsikko" : "About (me)",
+        "aboutOtsikko" : "Get to know me",
         "about1" : "I'm a university stundent with an interest in health tech, user interface and web development, machine learning, data science and artificial intelligence and would love an opportunity to use my skills in a relevant role.",
         "about2" : "My interest in health tech and technology in general led me to study bioinformation technology as my bachelor's degree's major. Currently, I'm pursuing my master's degree in computer science with a major in Machine Learning, Data Science and Artificial intelligence.",
         "about3" : "I'm passionate about continuous learning and developing new skills, as demonstrated by my enthusiasm for new opportunities when they arise. I consider myself to be highly adaptive and efficient learning individuaI. I have the ability to work with a variety of personalities and can easily read the room.",
@@ -18,7 +24,7 @@
         "otsikko" : "Work Experience",
         "varex" : {
             "otsikko" : "Cleanroom Operator - Varex Imaging",
-            "time" : "5/2025 - present",
+            "time" : "5/2025 - Present",
             "desc" : "blaablaa"
         },
         "junior" : {
@@ -36,5 +42,9 @@
             "time" : "5/2023 - 8/2023\n6/2022 - 8/2022\n4/2021 - 8/2021",
             "desc" : "Collecting orders in the various storage areas of the distribution centre using a pallet truck. Maintaining the cleanliness of the premises and the tidiniess of the collection areas."
         }
+    },
+
+    "Edu": {
+        "otsikko" : "Education"
     }
 }

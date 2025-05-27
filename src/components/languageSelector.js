@@ -13,8 +13,10 @@ const LanguageSelector = () => {
 
     return (
         <div className='selectLang'>  
-            <button value="fi" onClick={chooseLanguage}>suomi</button>
-            <button value="en" onClick={chooseLanguage}>English</button>
+            <select name="language" id="lang-select" value={selectedLanguage} onChange={chooseLanguage}>
+                <option value="fi">suomi</option>
+                <option value="en">English</option>
+            </select>
         </div>
     );
 };
