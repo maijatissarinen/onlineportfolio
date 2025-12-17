@@ -7,13 +7,15 @@ import { useTranslation } from 'react-i18next';
 function Navbar () {
     const {t} = useTranslation();
     return (
-        <nav className="navbar">
-            <ul className='nav-links'>
+        <nav className="desktop-navbar">
+            <ul className='desktop-nav-links'>
                 <li><a href='#about'>{t("Nav.about")}</a></li>
                 <li><a href='#work'>{t("Nav.work")}</a></li>
                 <li><a href='#edu'>{t("Nav.edu")}</a></li>
             </ul>
-            < LanguageSelector />
+            <div className='desktop-lang'>
+                < LanguageSelector />
+            </div>
         </nav>
     )
 }

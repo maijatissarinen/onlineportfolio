@@ -18,6 +18,9 @@ function HomePage() {
             </section>
 
             <section id="about">
+                <div class="about-pic">
+                    
+                </div>
                 <div class="about-container">
                     <h1>{t("About.aboutOtsikko")}</h1>
                     <article class="about-desc">

@@ -1,0 +1,29 @@
+li {
+    list-style-type: none;
+}
+
+.desktop-navbar {
+    width: 100%;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #59a1d4;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.desktop-nav-links {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.desktop-lang {
+    justify-content: end;
+}
+
+html {scroll-behavior: smooth;}
