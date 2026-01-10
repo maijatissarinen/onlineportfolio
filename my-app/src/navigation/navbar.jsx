@@ -12,6 +12,10 @@ function Navbar () {
                 <li><a href='#about'>{t("Nav.about")}</a></li>
                 <li><a href='#work'>{t("Nav.work")}</a></li>
                 <li><a href='#edu'>{t("Nav.edu")}</a></li>
+                <li><a href='#project'>Projects</a></li>
+                <li><a href='https://github.com/maijatissarinen'><img src='./public/github-mark.svg'></img></a></li>
+                <li><a href='https://linkedin.com/in/maijatissarinen'><img src='./public/InBug-Black.png'></img></a></li>
+                <li></li>
             </ul>
             <div className='desktop-lang'>
                 < LanguageSelector />
