@@ -18,7 +18,12 @@
         "about1" : "I'm a master's student in computer science at Aalto University, majoring in Machine Learning, Data Science and Artificial intelligence, with a bachelor's degree in bioinformation technology.",
         "about2" : "My background combines data analysis, machine learning and information visualization. These skills allow me to turn raw data into understandable insights. I enjoy working on problems where data, technology and human needs meet, that is from analytical dashboards to intelligent applications.",
         "about3" : "I'm passionate about continuous learning and developing new skills, as demonstrated by my enthusiasm for new opportunities when they arise. I consider myself to be highly adaptive and efficient learning individuaI. I have the ability to work with a variety of personalities and can easily read the room.",
-        "about4" : "I am currently looking for a summer position or thesis opportunity where I can apply data science and machine learning to real-world problems in industry or research."
+        "about4" : "I am currently looking for a ",
+        "about5" : "summer position or thesis opportunity",
+        "about6" : " where I can apply data science and machine learning to real-world problems in industry or research.",
+        "skills" : "Below are listed some technologies I have been working with.",
+        "code" : "Programming and data:",
+        "tools" : "Tools:"
     },
     
     "Work": {
@@ -54,15 +59,15 @@
 
     "Pro": {
         "otsikko" : "Projects",
+        "desc" : "",
         "info" : {
             "title" : "Exploratory Information Visualization",
-            "desc1" : "Interactive visualizatio built as a part of university course."
+            "desc1" : "Interactive visualization exhibiting the impact of sea-level rise on population." 
         },
 
         "powerbi": {
             "title" : "Hospital Patient Flow Dashboard",
-            "desc1" : "PowerBI sematic model and visual",
-            "desc2" : "Learning to use PowerBI"
+            "desc1" : "Implemented a PowerBI sematic model and dashboard for analyzing hospital patient flow and operational metrics."
         }
     }
 }
