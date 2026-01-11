@@ -11,9 +11,12 @@ function HomePage() {
 
             <section id="hero">
                 <div class="hero-container">
-                    <h1>{t("Hero.otsikko2")}</h1>
-                    <h3>{t("Hero.otsikko3")}</h3>
-                    <h3>{t("Hero.otsikko4")}</h3>
+                    <img id="heroimage" src='./imgs/Cv kuva 2025.png' alt="kuva"></img>
+                    <div class="herotext">
+                        <h1>{t("Hero.otsikko2")}</h1>
+                        <h3>{t("Hero.otsikko3")}</h3>
+                        <h3>{t("Hero.otsikko4")}</h3>
+                    </div>
                 </div>
             </section>
 
@@ -23,7 +26,6 @@ function HomePage() {
                     <article class="about-desc">
                         <p>{t("About.about1")}</p>
                         <p>{t("About.about2")}</p>
-                        <p>{t("About.about3")}</p>
                         <p>{t("About.about4")}</p>
                     </article>
                 </div>
@@ -31,6 +33,37 @@ function HomePage() {
 
             <section id="projects">
                 <h1>{t("Pro.otsikko")}</h1>
+                <ul class="projects-container">
+                    <li class="projects-card" >
+                        <h4>{t("Pro.info.title")}</h4>
+                        <p>
+                            <li>{t("Pro.info.desc1")}</li>
+                        </p>
+                        <div class="tech">
+                            <li>html</li>
+                            <li>css</li>
+                            <li>JavaScript</li>
+                            <li>Data visualization</li>
+                        </div>
+                        <p class="links">
+                            <a href='https://maijatissarinen.github.io/explorativeinfovis'>Live demo</a>
+                            <a href='https://github.com/maijatissarinen/explorativeinfovis'>Github</a>
+                        </p>
+                    </li>
+                    <li class="projects-card">
+                        <h4>{t("Pro.powerbi.title")}</h4>
+                        <p class="list">
+                            <li>{t("Pro.powerbi.desc1")}</li>
+                        </p>
+                        <div class="tech">
+                            <li>PowerBI</li>
+                            <li>Data visualization</li>
+                        </div>
+                        <p class="links">
+                            <a href='https://github.com/maijatissarinen/explorativeinfovis'>Github</a>
+                        </p>
+                    </li>
+                </ul>
             </section>    
 
             <section id="work">

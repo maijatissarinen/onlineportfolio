@@ -15,6 +15,8 @@ h3 {
 }
 
 .hero-container {
+    display: flex;
+    flex-direction: row;
     padding-left: 50%;
     padding-top: 20%;
     padding-bottom: 20%;
@@ -30,14 +32,66 @@ h3 {
 }
 
 .about-desc {
-    padding-top: 5%;
+    padding-top: 2%;
 }
 
+/* Projects section*/
+#projects {
+    padding-top: 5%;
+
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-top: 2%;
+}
+
+.projects-card {
+    display: block;
+    flex-direction: column;
+    align-content: space-evenly;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(203, 203, 203);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    max-width: 25vw;
+    min-width: 10wv;
+}
+
+.links a {
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tech li {
+    margin: 5px;
+    background-color: rgb(176, 216, 245);
+    border-radius: 10px;
+    padding: 7px;
+}
+
+/* Work section */
 #work {
-    padding-top: 10%;
-    padding-bottom: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .work-content {
+    padding-top: 5%;
+}
+
+/* Education section */
+#edu {
     padding-top: 5%;
 }

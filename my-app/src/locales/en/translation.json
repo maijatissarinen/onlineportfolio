@@ -53,6 +53,16 @@
     },
 
     "Pro": {
-        "otsikko" : "Projects"
+        "otsikko" : "Projects",
+        "info" : {
+            "title" : "Exploratory Information Visualization",
+            "desc1" : "Interactive visualizatio built as a part of university course."
+        },
+
+        "powerbi": {
+            "title" : "Hospital Patient Flow Dashboard",
+            "desc1" : "PowerBI sematic model and visual",
+            "desc2" : "Learning to use PowerBI"
+        }
     }
 }
