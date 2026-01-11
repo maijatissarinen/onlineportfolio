@@ -1,36 +1,40 @@
 {
     "Hero": {
-        "otsikko1" : "Hello, my name is",
-        "otsikko2" : "Maija.",
-        "otsikko3" : "Welcome to my online resume."
-
+        "otsikko2" : "Maija Tissarinen",
+        "otsikko3" : "Machine learning and data science student",
+        "otsikko4" : "Healthcare & human-centered tech"
+ 
     },
 
     "Nav": {
         "about" : "About",
         "work" : "Work Experience",
-        "edu" : "Education"
+        "edu" : "Education",
+        "pro" : "Projects"
     },
 
     "About": {
         "aboutOtsikko" : "Get to know me",
-        "about1" : "I'm a university stundent with an interest in health tech, user interface and web development, machine learning, data science and artificial intelligence and would love an opportunity to use my skills in a relevant role.",
-        "about2" : "My interest in health tech and technology in general led me to study bioinformation technology as my bachelor's degree's major. Currently, I'm pursuing my master's degree in computer science with a major in Machine Learning, Data Science and Artificial intelligence.",
+        "about1" : "I'm a master's student in computer science at Aalto University, majoring in Machine Learning, Data Science and Artificial intelligence, with a bachelor's degree in bioinformation technology.",
+        "about2" : "My background combines data analysis, machine learning and information visualization. These skills allow me to turn raw data into understandable insights. I enjoy working on problems where data, technology and human needs meet, that is from analytical dashboards to intelligent applications.",
         "about3" : "I'm passionate about continuous learning and developing new skills, as demonstrated by my enthusiasm for new opportunities when they arise. I consider myself to be highly adaptive and efficient learning individuaI. I have the ability to work with a variety of personalities and can easily read the room.",
-        "about4" : "Hope that you like my page and maybe I'll hear from you in the future!"
+        "about4" : "I am currently looking for a summer position or thesis opportunity where I can apply data science and machine learning to real-world problems in industry or research."
     },
     
     "Work": {
         "otsikko" : "Work Experience",
         "varex" : {
-            "otsikko" : "Cleanroom Operator - Varex Imaging",
-            "time" : "5/2025 - Present",
-            "desc" : "blaablaa"
+            "otsikko" : "Cleanroom operator - Varex Imaging",
+            "time" : "5/2025 - 8/2025",
+            "desc" : "Duties included flip-chip bonding and testing semiconductor components with and without x-ray, while adhering to ISO6 cleanroom standards."
         },
         "junior" : {
             "otsikko" : "Instructor - Aalto University Junior",
             "time" : "9/2024 - 5/2025",
-            "desc" : "Instructing and teaching at a Robotics program that aims to promote technology education for children and young pupils. Communicating with teachers about bookings. Other small tasks such as translating materials into English."
+            "desc" : "Instructing and teaching at a Robotics program that aims to promote technology education for children and young pupils. Communicating with teachers about bookings. Other small tasks such as translating materials into English.",
+            "time2" : "9/2025 - present",
+            "desc2" : "Instructing and teaching at a variety of science and technology workshops that aim to promote technology education for children and young pupils."
+        
         },
         "ge" : {
             "otsikko" : "Production Worker - GE HealthCare Finland",
@@ -46,5 +50,9 @@
 
     "Edu": {
         "otsikko" : "Education"
+    },
+
+    "Pro": {
+        "otsikko" : "Projects"
     }
 }

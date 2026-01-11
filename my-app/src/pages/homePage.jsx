@@ -11,16 +11,13 @@ function HomePage() {
 
             <section id="hero">
                 <div class="hero-container">
-                    <h3>{t("Hero.otsikko1")}</h3>
                     <h1>{t("Hero.otsikko2")}</h1>
                     <h3>{t("Hero.otsikko3")}</h3>
+                    <h3>{t("Hero.otsikko4")}</h3>
                 </div>
             </section>
 
             <section id="about">
-                <div class="about-pic">
-                    
-                </div>
                 <div class="about-container">
                     <h1>{t("About.aboutOtsikko")}</h1>
                     <article class="about-desc">
@@ -32,9 +29,18 @@ function HomePage() {
                 </div>
             </section>
 
+            <section id="projects">
+                <h1>{t("Pro.otsikko")}</h1>
+            </section>    
+
             <section id="work">
                 <h1>{t("Work.otsikko")}</h1>
                 <div class="work-content">
+                    {/* Aalto Junior button2*/}
+                    <AccordionItem 
+                        title={t("Work.junior.otsikko")}
+                        time={t("Work.junior.time2")}
+                        desc={t("Work.junior.desc2")} />
                     {/* Varex button */}
                     <AccordionItem
                         title={t("Work.varex.otsikko")}
@@ -60,7 +66,8 @@ function HomePage() {
 
             <section id="edu">
                 <h1>{t("Edu.otsikko")}</h1>
-            </section>       
+            </section>
+      
         </div>
     );
 }

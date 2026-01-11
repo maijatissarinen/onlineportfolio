@@ -1,8 +1,8 @@
 {
     "Hero": {
-        "otsikko1" : "Hei, nimeni on",
-        "otsikko2" : "Maija.",
-        "otsikko3" : "Tervetuloa ansioluettelooni."
+        "otsikko2" : "Maija Tissarinen",
+        "otsikko3" : "Koneoppimisen ja datatieteen opiskelija",
+        "otsikko4" : "Terveydenhuolto & ihmiskeskeinen teknologia"
 
     },
 
@@ -14,23 +14,25 @@
 
     "About": {
         "aboutOtsikko" : "Tutustutaan",
-        "about1" : "Olen yliopisto-opiskelija, joka on kiinnostunut terveysteknologiasta, käyttöliittymä- ja web-kehityksestä, koneoppimisesta, datatieteestä ja tekoälystä, ja haluaisin tilaisuuden käyttää taitojani asiaankuuluvassa tehtävässä.",
-        "about2" : "Kiinnostukseni terveysteknologiaan ja teknologiaan yleensä johti minut opiskelemaan bioinformaatioteknologiaa kandidaatin tutkintoni pääaineena. Tällä hetkellä suoritan tietotekniikan maisterin tutkintoa pääaineenani koneoppiminen, datatiede ja tekoäly.",
-        "about3" : "Olen innostunut jatkuvasta oppimisesta ja uusien taitojen kehittämisestä, mikä näkyy innostukseni uusiin mahdollisuuksiin niiden ilmaantuessa. Pidän itseäni erittäin mukautuvana ja tehokkaana oppivana yksilönä. Minulla on kyky työskennellä erilaisten persoonallisuuksien kanssa ja pystyn helposti lukemaan tilaa.",
-        "about4" : "Toivottavasti pidät sivustani ja ehkä kuulen sinusta tulevaisuudessa!"
+        "about1" : "Olen tietotekniikan maisteriopiskelija Aalto-yliopistosta. Pääaineenani opiskelen Koneoppimista, datatiedettä ja tekoälyä. Kandidaatin tutkintoni on bioinformaatioteknologian pääaineesta.",
+        "about2" : "Taustani yhdistää data-analyysin, koneoppimisen ja informaatiovisualisoinnin. Näiden taitojen avulla pystyn muuttamaan raa'an datan helposti ymmärrettäviksi. Minua kiinnostaa ongelmat, joissa data, teknologia ja ihmisen tarpeet kohtaavat. Näitä ovat muun muassa erilaiset analytiikka työkalut, visualisoinnit ja sovellukset.",
+        "about3" : "Minua innostaa jatkuva oppiminen ja uusien taitojen kehittäminen ja tartunkin uusiin mahdollisuuksiin niiden ilmaantuessa. Pidän itseäni erittäin mukautuvana ja tehokkaana oppivana yksilönä. Minulla on kyky työskennellä erilaisten persoonallisuuksien kanssa ja pystyn helposti lukemaan tilaa.",
+        "about4" : "Etsin tällä hetkellä kesätyö- tai diplomityöpaikkaa, jossa voin soveltaa data-analytiikkaa ja koneoppimista todellisiin käytännön ongelmiin."
     },
 
     "Work": {
         "otsikko" : "Työkokemus",
         "varex" : {
-            "otsikko" : "Puhdashuone Operaattori - Varex Imaging",
-            "time" : "5/2025 - Tänään",
-            "desc" : "blaablaa"
+            "otsikko" : "Puhdashuone operaattori - Varex Imaging",
+            "time" : "5/2025 - 8/2025",
+            "desc" : "Flip-chip bondaus ja puolijohdekomponenttien testaaminen röntgensäteellä sekä ilman. ISO6-puhdastilastandardien noudattaminen."
         },
         "junior" : {
             "otsikko" : "Ohjaaja - Aalto-yliopisto Junior",
             "time" : "9/2024 - 5/2025",
-            "desc" : "Ohjaaminen ja opettaminen Robotiikkatuokiot -hankkeessa, jonka tavoitteena on edistää lasten ja nuorten oppilaiden teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista. Muut tehtävät, kuten materiaalien kääntäminen englanniksi ja selkokielelle."
+            "desc" : "Ohjaaminen ja opettaminen Robotiikkatuokiot -hankkeessa, jonka tavoitteena on edistää lasten ja nuorten oppilaiden teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista. Muut tehtävät, kuten materiaalien kääntäminen englanniksi ja selkokielelle.",
+            "time2" : "9/2025 - nyt",
+            "desc2" : "Ohjaaminen ja opettaminen tieteen ja teknologian työpajoissa, joiden tavoitteena on edistää lasten ja nuorten teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista."
         },
         "ge" : {
             "otsikko" : "Tuotantotyöntekijä - GE HealthCare Finland",
@@ -46,5 +48,9 @@
 
     "Edu": {
         "otsikko" : "Koulutus"
+    },
+
+    "Pro": {
+        "otsikko" : "Projektit"
     }
 }
