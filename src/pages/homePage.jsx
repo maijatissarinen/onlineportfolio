@@ -130,7 +130,9 @@ function HomePage() {
                     <div class="edu-line"></div>
                     <div class="edu-content">
                         <div class="edu-desc">
-                            <div class="year"><strong>{t("Edu.now.time")}</strong></div>
+                            <div class="year">
+                                <p><strong>{t("Edu.now.time")}</strong></p>
+                            </div>
                             <div class="desc">
                                 <p><strong>{t("Edu.now.title")}</strong></p>
                                 <article class="masters">
@@ -142,7 +144,9 @@ function HomePage() {
                             </div>
                         </div>
                         <div class="edu-desc">
-                            <div class="year"><strong>{t("Edu.bachelor.time")}</strong></div>
+                            <div class="year">
+                                <p><strong>{t("Edu.bachelor.time")}</strong></p>
+                            </div>
                             <div class="desc">
                                 <p><strong>{t("Edu.bachelor.title")}</strong></p>
                                 <article class="masters">
