@@ -54,7 +54,23 @@
     },
 
     "Edu": {
-        "otsikko" : "Education"
+        "otsikko" : "Education",
+        "now" : {
+            "time" : "",
+            "title" : "Currently pursuing Master's degree",
+            "major" : "Machine Learning, Data Science and Artificial Intelligence",
+            "program" : "Computer, Communications and Information Sciences (CCIS)",
+            "school" : "School of Science",
+            "uni" : "Aalto University"
+        },
+
+        "bachelor" : {
+            "time" : "2025",
+            "title" : "Bachelor of Science (Tech.)",
+            "major" : "Bioinformation technology",
+            "school" : "School of Electrical Engineering",
+            "uni" : "Aalto University"
+        }
     },
 
     "Pro": {
@@ -67,7 +83,7 @@
 
         "powerbi": {
             "title" : "Hospital Patient Flow Dashboard",
-            "desc1" : "Implemented a PowerBI sematic model and dashboard for analyzing hospital patient flow and operational metrics."
+            "desc1" : "Implemented a Power BI semantic model and dashboard for analyzing hospital patient flow and operational metrics."
         }
     }
 }

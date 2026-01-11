@@ -102,3 +102,39 @@ h3 {
 #edu {
     padding-top: 5%;
 }
+
+.edu-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.edu-line {
+    border-left: 1px solid black;
+}
+
+.edu-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.year {
+    margin-right: 5%;
+    min-width: 40px;
+    padding-top: 15px;
+    padding-left: 3%;
+}
+
+.edu-desc {
+    display: flex;
+    flex-direction: row;
+    min-width: 700px;
+    align-items: start;
+    padding-bottom: 5%;
+}
+
+.masters {
+    line-height: 0.3;
+}

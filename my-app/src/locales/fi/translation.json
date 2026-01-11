@@ -9,7 +9,8 @@
     "Nav": {
         "about" : "Minusta",
         "work" : "Työkokemus",
-        "edu" : "Koulutus"
+        "edu" : "Koulutus",
+        "pro" : "Projektit"
     },
 
     "About": {
@@ -17,7 +18,12 @@
         "about1" : "Olen tietotekniikan maisteriopiskelija Aalto-yliopistosta. Pääaineenani opiskelen Koneoppimista, datatiedettä ja tekoälyä. Kandidaatin tutkintoni on bioinformaatioteknologian pääaineesta.",
         "about2" : "Taustani yhdistää data-analyysin, koneoppimisen ja informaatiovisualisoinnin. Näiden taitojen avulla pystyn muuttamaan raa'an datan helposti ymmärrettäviksi. Minua kiinnostaa ongelmat, joissa data, teknologia ja ihmisen tarpeet kohtaavat. Näitä ovat muun muassa erilaiset analytiikka työkalut, visualisoinnit ja sovellukset.",
         "about3" : "Minua innostaa jatkuva oppiminen ja uusien taitojen kehittäminen ja tartunkin uusiin mahdollisuuksiin niiden ilmaantuessa. Pidän itseäni erittäin mukautuvana ja tehokkaana oppivana yksilönä. Minulla on kyky työskennellä erilaisten persoonallisuuksien kanssa ja pystyn helposti lukemaan tilaa.",
-        "about4" : "Etsin tällä hetkellä kesätyö- tai diplomityöpaikkaa, jossa voin soveltaa data-analytiikkaa ja koneoppimista todellisiin käytännön ongelmiin."
+        "about4" : "Etsin tällä hetkellä ",
+        "about5" : "kesätyö- tai diplomityöpaikkaa",
+        "about6" : ", jossa voin soveltaa data-analytiikkaa ja koneoppimista todellisiin käytännön ongelmiin.",
+        "skills" : "Alla listattuna tekniikkaa, joiden kanssa olen työskennellyt.",
+        "code" : "Ohjelmointi ja data:",
+        "tools" : "Työkalut:"
     },
 
     "Work": {
@@ -47,10 +53,36 @@
     },
 
     "Edu": {
-        "otsikko" : "Koulutus"
+        "otsikko" : "Koulutus",
+        "now" : {
+            "time" : "",
+            "title" : "Tällä hetkellä työstän maisteriopintoja",
+            "major" : "Machine Learning, Data Science and Artificial Intelligence",
+            "program" : "Computer, Communications and Information Sciences (CCIS)",
+            "school" : "Perustieteiden korkeakoulu",
+            "uni" : "Aalto-yliopisto"
+        },
+
+        "bachelor" : {
+            "time" : "2025",
+            "title" : "Tekniikan kandidaatti",
+            "major" : "Bioinformaatioteknologia",
+            "school" : "Sähkötekniikan korkeakoulu",
+            "uni" : "Aalto-yliopisto"
+        }
     },
 
     "Pro": {
-        "otsikko" : "Projektit"
+        "otsikko" : "Projektit",
+        "desc" : "",
+        "info" : {
+            "title" : "Informaation visualisointi",
+            "desc1" : "Interaktiivinen visualisaatio, joka esittää meren pinnan nousun vaikutusta populaatioon." 
+        },
+
+        "powerbi": {
+            "title" : "Sairaalan potilasvirtaus",
+            "desc1" : "Toteutin Power BI semanttisen mallin ja visualisoinnin sairaalan potilasvirran ja operatiivisten mittareiden analysointiin."
+        }
     }
 }

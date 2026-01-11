@@ -86,7 +86,8 @@ function HomePage() {
                             <li>Data visualization</li>
                         </div>
                         <p class="links">
-                            <a href='https://github.com/maijatissarinen/explorativeinfovis'>Github</a>
+                            <a href='https://app.powerbi.com/reportEmbed?reportId=c0a20728-9d27-4ae5-b003-ae456788baf2&autoAuth=true&ctid=ae1a7724-4041-4462-a6dc-538cb199707e'>Dashboard</a>
+                            <a href='https://github.com/maijatissarinen/hospitalwaittime/tree/main'>Github</a>
                         </p>
                     </li>
                 </ul>
@@ -125,6 +126,34 @@ function HomePage() {
 
             <section id="edu">
                 <h1>{t("Edu.otsikko")}</h1>
+                <div class="edu-container">
+                    <div class="edu-line"></div>
+                    <div class="edu-content">
+                        <div class="edu-desc">
+                            <div class="year"><strong>{t("Edu.now.time")}</strong></div>
+                            <div class="desc">
+                                <p><strong>{t("Edu.now.title")}</strong></p>
+                                <article class="masters">
+                                    <p>{t("Edu.now.major")}</p>
+                                    <p>{t("Edu.now.program")}</p>
+                                    <p>{t("Edu.now.school")}</p>
+                                    <p>{t("Edu.now.uni")}</p>
+                                </article>
+                            </div>
+                        </div>
+                        <div class="edu-desc">
+                            <div class="year"><strong>{t("Edu.bachelor.time")}</strong></div>
+                            <div class="desc">
+                                <p><strong>{t("Edu.bachelor.title")}</strong></p>
+                                <article class="masters">
+                                    <p>{t("Edu.bachelor.major")}</p>
+                                    <p>{t("Edu.bachelor.school")}</p>
+                                    <p>{t("Edu.bachelor.uni")}</p>
+                                </article>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
       
         </div>
