@@ -1,0 +1,140 @@
+/* Importing the font */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+/* General */ 
+h3 {
+    font-weight: 300;
+}
+
+.main {
+    background-color: #ffffff;
+    font-size: 16px;
+    margin: auto;
+    font-family: "DM Sans", serif;
+    width: 80%;
+    text-align: left;
+}
+
+/* Hero section */
+.hero-container {
+    display: flex;
+    flex-direction: row;
+    padding-left: 50%;
+    padding-top: 25%;
+    padding-bottom: 25%;
+}
+
+.hero-container h1 {
+    font-size: 60px;
+    margin: 0;
+}
+
+.hero-container h3 {
+    margin: 0;
+}
+
+.about-desc {
+    padding-top: 2%;
+}
+
+.about-skills {
+    padding-top: 2%;
+}
+
+/* Projects section*/
+#projects {
+    padding-top: 5%;
+
+}
+
+.projects-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding-left: 0;
+    padding-top: 2%;
+}
+
+.projects-card {
+    display: block;
+    flex-direction: column;
+    align-content: space-evenly;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(203, 203, 203);
+    border-radius: 15px;
+    margin: 10px;
+    padding: 10px;
+    padding-left: 15px;
+    max-width: 25vw;
+    min-width: 10wv;
+}
+
+.links a {
+    padding-right: 15px;
+    text-decoration: underline;
+}
+
+.tech {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.tech li {
+    margin: 5px;
+    background-color: rgb(214, 214, 214) /* rgb(176, 216, 245) */ ;
+    border-radius: 10px;
+    padding: 7px;
+}
+
+/* Work section */
+#work {
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.work-content {
+    padding-top: 5%;
+}
+
+/* Education section */
+#edu {
+    padding-top: 5%;
+}
+
+.edu-container {
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 20%;
+    padding-top: 5%;
+    padding-left: 10%;
+}
+
+.edu-line {
+    border-left: 1px solid black;
+}
+
+.edu-content {
+    display: flex;
+    flex-direction: column;
+}
+
+.year {
+    margin-right: 5%;
+    min-width: 40px;
+    padding-top: 15px;
+    padding-left: 3%;
+}
+
+.edu-desc {
+    display: flex;
+    flex-direction: row;
+    min-width: 700px;
+    align-items: start;
+    padding-bottom: 5%;
+}
+
+.masters {
+    line-height: 0.3;
+}

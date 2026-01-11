@@ -1,0 +1,89 @@
+{
+    "Hero": {
+        "otsikko2" : "Maija Tissarinen",
+        "otsikko3" : "Machine learning and data science student",
+        "otsikko4" : "Healthcare & human-centered tech"
+ 
+    },
+
+    "Nav": {
+        "about" : "About",
+        "work" : "Work Experience",
+        "edu" : "Education",
+        "pro" : "Projects"
+    },
+
+    "About": {
+        "aboutOtsikko" : "Get to know me",
+        "about1" : "I'm a master's student in computer science at Aalto University, majoring in Machine Learning, Data Science and Artificial intelligence, with a bachelor's degree in bioinformation technology.",
+        "about2" : "My background combines data analysis, machine learning and information visualization. These skills allow me to turn raw data into understandable insights. I enjoy working on problems where data, technology and human needs meet, that is from analytical dashboards to intelligent applications.",
+        "about3" : "I'm passionate about continuous learning and developing new skills, as demonstrated by my enthusiasm for new opportunities when they arise. I consider myself to be highly adaptive and efficient learning individuaI. I have the ability to work with a variety of personalities and can easily read the room.",
+        "about4" : "I am currently looking for a ",
+        "about5" : "summer position or thesis opportunity",
+        "about6" : " where I can apply data science and machine learning to real-world problems in industry or research.",
+        "skills" : "Below are listed some technologies I have been working with.",
+        "code" : "Programming and data:",
+        "tools" : "Tools:"
+    },
+    
+    "Work": {
+        "otsikko" : "Work Experience",
+        "varex" : {
+            "otsikko" : "Cleanroom operator - Varex Imaging",
+            "time" : "5/2025 - 8/2025",
+            "desc" : "Duties included flip-chip bonding and testing semiconductor components with and without x-ray, while adhering to ISO6 cleanroom standards."
+        },
+        "junior" : {
+            "otsikko" : "Instructor - Aalto University Junior",
+            "time" : "9/2024 - 5/2025",
+            "desc" : "Instructing and teaching at a Robotics program that aims to promote technology education for children and young pupils. Communicating with teachers about bookings. Other small tasks such as translating materials into English.",
+            "time2" : "9/2025 - present",
+            "desc2" : "Instructing and teaching at a variety of science and technology workshops that aim to promote technology education for children and young pupils."
+        
+        },
+        "ge" : {
+            "otsikko" : "Production Worker - GE HealthCare Finland",
+            "time" : "5/2024 - 8/2024",
+            "desc" : "Collecting and delivering materials for the assembly of patient monitoring modules and monitors. Monitoring the quality of the materials used in the assembly."
+        },
+        "lidl" : {
+            "otsikko" : "Warehouse Worker - Lidl Suomi",
+            "time" : "5/2023 - 8/2023\n6/2022 - 8/2022\n4/2021 - 8/2021",
+            "desc" : "Collecting orders in the various storage areas of the distribution centre using a pallet truck. Maintaining the cleanliness of the premises and the tidiniess of the collection areas."
+        }
+    },
+
+    "Edu": {
+        "otsikko" : "Education",
+        "now" : {
+            "time" : "",
+            "title" : "Currently pursuing Master's degree",
+            "major" : "Machine Learning, Data Science and Artificial Intelligence",
+            "program" : "Computer, Communications and Information Sciences (CCIS)",
+            "school" : "School of Science",
+            "uni" : "Aalto University"
+        },
+
+        "bachelor" : {
+            "time" : "2025",
+            "title" : "Bachelor of Science (Tech.)",
+            "major" : "Bioinformation technology",
+            "school" : "School of Electrical Engineering",
+            "uni" : "Aalto University"
+        }
+    },
+
+    "Pro": {
+        "otsikko" : "Projects",
+        "desc" : "",
+        "info" : {
+            "title" : "Exploratory Information Visualization",
+            "desc1" : "Interactive visualization exhibiting the impact of sea-level rise on population." 
+        },
+
+        "powerbi": {
+            "title" : "Hospital Patient Flow Dashboard",
+            "desc1" : "Implemented a Power BI semantic model and dashboard for analyzing hospital patient flow and operational metrics."
+        }
+    }
+}
