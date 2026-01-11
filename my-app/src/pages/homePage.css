@@ -1,6 +1,7 @@
 /* Importing the font */
 @import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
 
+/* General */ 
 h3 {
     font-weight: 300;
 }
@@ -14,12 +15,13 @@ h3 {
     text-align: left;
 }
 
+/* Hero section */
 .hero-container {
     display: flex;
     flex-direction: row;
     padding-left: 50%;
-    padding-top: 20%;
-    padding-bottom: 20%;
+    padding-top: 25%;
+    padding-bottom: 25%;
 }
 
 .hero-container h1 {
@@ -32,6 +34,10 @@ h3 {
 }
 
 .about-desc {
+    padding-top: 2%;
+}
+
+.about-skills {
     padding-top: 2%;
 }
 
@@ -59,6 +65,7 @@ h3 {
     border-radius: 15px;
     margin: 10px;
     padding: 10px;
+    padding-left: 15px;
     max-width: 25vw;
     min-width: 10wv;
 }
@@ -76,7 +83,7 @@ h3 {
 
 .tech li {
     margin: 5px;
-    background-color: rgb(176, 216, 245);
+    background-color: rgb(214, 214, 214) /* rgb(176, 216, 245) */ ;
     border-radius: 10px;
     padding: 7px;
 }

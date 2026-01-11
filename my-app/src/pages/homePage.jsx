@@ -11,7 +11,7 @@ function HomePage() {
 
             <section id="hero">
                 <div class="hero-container">
-                    <img id="heroimage" src='./imgs/Cv kuva 2025.png' alt="kuva"></img>
+                    {/*<img id="heroimage" src='./imgs/Cv kuva 2025.png' alt="kuva"></img>*/}
                     <div class="herotext">
                         <h1>{t("Hero.otsikko2")}</h1>
                         <h3>{t("Hero.otsikko3")}</h3>
@@ -26,13 +26,39 @@ function HomePage() {
                     <article class="about-desc">
                         <p>{t("About.about1")}</p>
                         <p>{t("About.about2")}</p>
-                        <p>{t("About.about4")}</p>
+                        <p>{t("About.about4")}<strong>{t("About.about5")}</strong>{t("About.about6")}</p>
+                        
                     </article>
+                    <div class="about-skills">
+                        <p>{t("About.skills")}</p>
+                        <h4>{t("About.code")}</h4>
+                        <div class="tech">
+                            <li>Python</li>
+                            <li>Numpy</li>
+                            <li>pandas</li>
+                            <li>Scikit-learn</li>
+                            <li>seaborn</li>
+                            <li>PyTorch</li>
+                            <li>R</li>
+                            <li>SQL</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
+                            <li>JavaScript</li>
+                            <li>React</li>
+                        </div>
+                        <h4>{t("About.tools")}</h4>
+                        <div class="tech">
+                            <li>PowerBI</li>
+                            <li>Microsoft O365</li>
+                            <li>GitHub</li>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <section id="projects">
                 <h1>{t("Pro.otsikko")}</h1>
+                <p>{t("Pro.desc")}</p>
                 <ul class="projects-container">
                     <li class="projects-card" >
                         <h4>{t("Pro.info.title")}</h4>
@@ -40,8 +66,8 @@ function HomePage() {
                             <li>{t("Pro.info.desc1")}</li>
                         </p>
                         <div class="tech">
-                            <li>html</li>
-                            <li>css</li>
+                            <li>HTML</li>
+                            <li>CSS</li>
                             <li>JavaScript</li>
                             <li>Data visualization</li>
                         </div>
