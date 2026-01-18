@@ -87,7 +87,20 @@ function HomePage() {
                         </div>
                         <p class="links">
                             <a href='https://app.powerbi.com/reportEmbed?reportId=c0a20728-9d27-4ae5-b003-ae456788baf2&autoAuth=true&ctid=ae1a7724-4041-4462-a6dc-538cb199707e'>Dashboard</a>
-                            <a href='https://github.com/maijatissarinen/hospitalwaittime/tree/main'>Github</a>
+                            <a href='https://github.com/maijatissarinen/hospitalwaittime'>Github</a>
+                        </p>
+                    </li>
+                    <li class="projects-card">
+                        <h4>{t("Pro.digi.title")}</h4>
+                        <p class="list">
+                            <li>{t("Pro.digi.desc1")}</li>
+                        </p>
+                        <div class="tech">
+                            <li>Python</li>
+                            <li>NLP</li>
+                        </div>
+                        <p class="links">
+                            <a href='https://github.com/maijatissarinen/digihealth_project'>Github</a>
                         </p>
                     </li>
                 </ul>
