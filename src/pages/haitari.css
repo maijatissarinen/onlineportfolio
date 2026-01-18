@@ -22,3 +22,6 @@
     border-bottom: solid 0.5px;
 }
 
+.bullets li {
+    list-style-type: disc;
+}

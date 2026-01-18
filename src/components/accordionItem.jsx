@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-function AccordionItem({title, time, desc}) {
+function AccordionItem({title, time, desc1, desc2, desc3}) {
     const [isOpen, setIsOpen] = useState(false);
 
     return(
@@ -15,7 +15,12 @@ function AccordionItem({title, time, desc}) {
                         <p key={index}>{line}</p>
                     ))
                     : <p>{time}</p>}
-                    <p>{desc}</p>
+
+                    <ul className="bullets">
+                        <li>{desc1}</li>
+                        <li>{desc2}</li>
+                        <li>{desc3}</li>
+                    </ul>
                 </div>
             )}
         </div>

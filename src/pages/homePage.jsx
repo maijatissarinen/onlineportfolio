@@ -113,27 +113,37 @@ function HomePage() {
                     <AccordionItem 
                         title={t("Work.junior.otsikko")}
                         time={t("Work.junior.time2")}
-                        desc={t("Work.junior.desc2")} />
+                        desc1={t("Work.junior.desc2.1")}
+                        desc2={t("Work.junior.desc2.2")}
+                        desc3={t("Work.junior.desc2.3")} />
                     {/* Varex button */}
                     <AccordionItem
                         title={t("Work.varex.otsikko")}
                         time={t("Work.varex.time")}
-                        desc={t("Work.varex.desc")} />    
+                        desc1={t("Work.varex.desc.1")}
+                        desc2={t("Work.varex.desc.2")}
+                        desc3={t("Work.varex.desc.3")} />    
                     {/* Aalto Junior button*/}
                     <AccordionItem 
                         title={t("Work.junior.otsikko")}
                         time={t("Work.junior.time")}
-                        desc={t("Work.junior.desc")} />
+                        desc1={t("Work.junior.desc.1")}
+                        desc2={t("Work.junior.desc.2")}
+                        desc3={t("Work.junior.desc.3")} />
                     {/* GE button */}
                     <AccordionItem 
                         title={t("Work.ge.otsikko")}
                         time={t("Work.ge.time")}
-                        desc={t("Work.ge.desc")} />
+                        desc1={t("Work.ge.desc.1")} 
+                        desc2={t("Work.ge.desc.2")} 
+                        desc3={t("Work.ge.desc.3")} />
                     {/* Lidl button */}
                     <AccordionItem 
                         title={t("Work.lidl.otsikko")}
                         time={t("Work.lidl.time")}
-                        desc={t("Work.lidl.desc")} />
+                        desc1={t("Work.lidl.desc.1")}
+                        desc2={t("Work.lidl.desc.2")}
+                        desc3={t("Work.lidl.desc.3")} />
                 </div>
             </section>
 
