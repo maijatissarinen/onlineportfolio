@@ -29,7 +29,7 @@ function HomePage() {
                         <p>{t("About.about4")}<strong>{t("About.about5")}</strong>{t("About.about6")}</p>
                         
                     </article>
-                    <div class="about-skills">
+                    {/* <div class="about-skills">
                         <p>{t("About.skills")}</p>
                         <h4>{t("About.code")}</h4>
                         <div class="tech">
@@ -52,7 +52,7 @@ function HomePage() {
                             <li>Microsoft O365</li>
                             <li>GitHub</li>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
 
@@ -61,36 +61,36 @@ function HomePage() {
                 <p>{t("Pro.desc")}</p>
                 <ul class="projects-container">
                     <li class="projects-card" >
-                        <h4>{t("Pro.info.title")}</h4>
+                        <h4><li>{t("Pro.info.title")}</li></h4>
                         <p>
                             <li>{t("Pro.info.desc1")}</li>
                         </p>
-                        <div class="tech">
+                        {/* <div class="tech">
                             <li>HTML</li>
                             <li>CSS</li>
                             <li>JavaScript</li>
                             <li>Data visualization</li>
-                        </div>
+                        </div> */}
                         <p class="links">
                             <a href='https://maijatissarinen.github.io/explorativeinfovis'>Live demo</a>
                             <a href='https://github.com/maijatissarinen/explorativeinfovis'>Github</a>
                         </p>
                     </li>
                     <li class="projects-card">
-                        <h4>{t("Pro.powerbi.title")}</h4>
+                        <h4><li>{t("Pro.powerbi.title")}</li></h4>
                         <p class="list">
                             <li>{t("Pro.powerbi.desc1")}</li>
                         </p>
-                        <div class="tech">
+                        {/* <div class="tech">
                             <li>PowerBI</li>
                             <li>Data visualization</li>
-                        </div>
+                        </div> */}
                         <p class="links">
                             <a href='https://app.powerbi.com/reportEmbed?reportId=c0a20728-9d27-4ae5-b003-ae456788baf2&autoAuth=true&ctid=ae1a7724-4041-4462-a6dc-538cb199707e'>Dashboard</a>
                             <a href='https://github.com/maijatissarinen/hospitalwaittime'>Github</a>
                         </p>
                     </li>
-                    <li class="projects-card">
+                    {/* <li class="projects-card">
                         <h4>{t("Pro.digi.title")}</h4>
                         <p class="list">
                             <li>{t("Pro.digi.desc1")}</li>
@@ -102,7 +102,7 @@ function HomePage() {
                         <p class="links">
                             <a href='https://github.com/maijatissarinen/digihealth_project'>Github</a>
                         </p>
-                    </li>
+                    </li> */}
                 </ul>
             </section>    
 

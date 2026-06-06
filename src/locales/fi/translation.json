@@ -1,8 +1,8 @@
 {
     "Hero": {
-        "otsikko2" : "Maija Tissarinen",
-        "otsikko3" : "Koneoppimisen ja datatieteen opiskelija",
-        "otsikko4" : "Ihmiskeskeinen teknologia"
+        "otsikko2" : "Hei! Olen Maija",
+        "otsikko3" : "Koneoppimisen ja datatieteen opiskelija.",
+        "otsikko4" : "Pidän terveys- ja ihmiskeskeistä teknologiasta, sekä näteistä käyttöliittymistä :)"
 
     },
 
@@ -19,7 +19,7 @@
         "about2" : "Taustani yhdistää data-analyysin, koneoppimisen ja informaatiovisualisoinnin. Näiden taitojen avulla pystyn muuttamaan raa'an datan helposti ymmärrettäviksi. Minua kiinnostaa ongelmat, joissa data, teknologia ja ihmisen tarpeet kohtaavat. Näitä ovat muun muassa erilaiset analytiikka työkalut, visualisoinnit ja sovellukset.",
         "about3" : "Minua innostaa jatkuva oppiminen ja uusien taitojen kehittäminen ja tartunkin uusiin mahdollisuuksiin niiden ilmaantuessa. Pidän itseäni erittäin mukautuvana ja tehokkaana oppivana yksilönä. Minulla on kyky työskennellä erilaisten persoonallisuuksien kanssa ja pystyn helposti lukemaan tilaa.",
         "about4" : "Etsin tällä hetkellä ",
-        "about5" : "kesätyö- tai diplomityöpaikkaa",
+        "about5" : "diplomityöpaikkaa",
         "about6" : ", jossa voin soveltaa data-analytiikkaa ja koneoppimista todellisiin käytännön ongelmiin.",
         "skills" : "Alla listattuna tekniikkaa, joiden kanssa olen työskennellyt.",
         "code" : "Ohjelmointi ja data:",
@@ -56,7 +56,7 @@
         "otsikko" : "Koulutus",
         "now" : {
             "time" : "",
-            "title" : "Tällä hetkellä työstän maisteriopintoja",
+            "title" : "Tällä hetkellä työstän maisteriopintojani",
             "major" : "Machine Learning, Data Science and Artificial Intelligence",
             "program" : "Computer, Communications and Information Sciences (CCIS)",
             "school" : "Perustieteiden korkeakoulu",

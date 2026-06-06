@@ -16,7 +16,7 @@
 h3 {
     font-weight: 300;
 }
-
+html {scroll-behavior: smooth;}
 .main {
 /*     font-family: "argent-pixel-cf", sans-serif;
     font-weight: 400;
@@ -63,7 +63,7 @@ h3 {
 
 .projects-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: flex-start;
     padding-left: 0;
     padding-top: 2%;
@@ -71,15 +71,11 @@ h3 {
 
 .projects-card {
     display: block;
-    background-color: rgb(255, 247, 247);
     flex-direction: column;
     align-content: space-evenly;
-    border-radius: 15px;
     margin: 10px;
     padding: 10px;
     padding-left: 15px;
-    max-width: 25vw;
-    min-width: 10wv;
 }
 
 .links a {
