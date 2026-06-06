@@ -13,8 +13,8 @@ function Navbar () {
                 <li><a href='#projects'>{t("Nav.pro")}</a></li>
                 <li><a href='#work'>{t("Nav.work")}</a></li>
                 <li><a href='#edu'>{t("Nav.edu")}</a></li>
-                <li><a href='https://github.com/maijatissarinen'><img src='github-mark.svg'></img></a></li>
-                <li><a href='https://linkedin.com/in/maijatissarinen'><img src='InBug-Black.png'></img></a></li>
+                <li><a href='https://github.com/maijatissarinen'><img src='github-mark.svg'></img></a>
+                <a href='https://linkedin.com/in/maijatissarinen'><img src='InBug-Black.png'></img></a></li>
                 <li></li>
             </ul>
             <div className='desktop-lang'>

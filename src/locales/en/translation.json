@@ -1,8 +1,8 @@
 {
     "Hero": {
-        "otsikko2" : "Maija Tissarinen",
-        "otsikko3" : "Machine learning and data science student",
-        "otsikko4" : "Human-centered tech"
+        "otsikko2" : "Hi! I'm Maija",
+        "otsikko3" : "Machine learning and data science student.",
+        "otsikko4" : "I like health and human-centered tech, and pretty UIs :)"
  
     },
 
@@ -19,7 +19,7 @@
         "about2" : "My background combines data analysis, machine learning and information visualization. These skills allow me to turn raw data into understandable insights. I enjoy working on problems where data, technology and human needs meet, that is from analytical dashboards to intelligent applications.",
         "about3" : "I'm passionate about continuous learning and developing new skills, as demonstrated by my enthusiasm for new opportunities when they arise. I consider myself to be highly adaptive and efficient learning individuaI. I have the ability to work with a variety of personalities and can easily read the room.",
         "about4" : "I am currently looking for a ",
-        "about5" : "summer position or thesis opportunity",
+        "about5" : "master's thesis opportunity",
         "about6" : " where I can apply data science and machine learning to real-world problems in industry or research.",
         "skills" : "Below are listed some technologies I have been working with.",
         "code" : "Programming and data:",
@@ -95,7 +95,7 @@
     },
 
     "Pro": {
-        "otsikko" : "Projects",
+        "otsikko" : "Projects I have done",
         "desc" : "",
         "info" : {
             "title" : "Exploratory Information Visualization",

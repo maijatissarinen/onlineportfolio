@@ -6,7 +6,7 @@
 .accordion-button {
     width: 100%;
     padding: 15px;
-    background-color: #FFF;
+    background: transparent;
     border-bottom: solid 1px;
     border-right: none;
     border-top: none;
