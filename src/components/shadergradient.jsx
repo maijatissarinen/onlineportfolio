@@ -27,8 +27,8 @@ export default function GradientBackground() {
                 grain="off"
                 lightType="3d"
                 loop="on"
-                loopDuration={20}
-                pixelDensity={1}
+                loopDuration={30}
+                pixelDensity={2}
                 positionX={0}
                 positionY={1.8}
                 positionZ={0}
@@ -44,7 +44,7 @@ export default function GradientBackground() {
                 uAmplitude={0}
                 uDensity={1}
                 uFrequency={5.5}
-                uSpeed={0.2}
+                uSpeed={0.1}
                 uStrength={3}
                 uTime={0.2}
                 wireframe={false}
