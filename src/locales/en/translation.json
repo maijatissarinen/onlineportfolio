@@ -28,50 +28,7 @@
     
     "Work": {
         "otsikko" : "Work Experience",
-        "varex" : {
-            "otsikko" : "Cleanroom operator - Varex Imaging",
-            "time" : "5/2025 - 8/2025",
-            "desc" : {
-                "1" : "Performed flip-chip bonding and testing of semiconductor components with and without X-ray in a ISO6 cleanroom environment",
-                "2" : "Worked as part of an international, multidisciplinary team",
-                "3" : "Analyzed component quality and test results to maintain production standards"
-            }
-        },
-        "junior" : {
-            "otsikko" : "Instructor - Aalto University Junior",
-            "time" : "9/2024 - 5/2025",
-            "desc" : {
-                "1" : "Taught robotics workshops to mostly elementary school groups",
-                "2" : "Presented complex topics clearly to children and young pupils at events and workshops",
-                "3" : "Communicated with teachers via email about bookings"
-            },
-            "time2" : "9/2025 - present",
-            "desc2" : {
-                "1" : "Taught science and technology workshops to groups of 20-30 pupils, adjusting teaching style to suit different groups",
-                "2" : "Presented complex topics clearly to children and young pupils at events and workshops",
-                "3" : "Communicated with teachers via email about bookings"
-            }
-        
-        },
-        "ge" : {
-            "otsikko" : "Production Worker - GE HealthCare Finland",
-            "time" : "5/2024 - 8/2024",
-            "desc" : {
-                "1" : "Collecting and delivering materials for the assembly of patient monitoring modules and monitors",
-                "2" : "Monitoring the quality of the materials used in the assembly",
-                "3" : "Worked a part of a team to support smooth and timely production"            
-            }
-        },
-
-        "lidl" : {
-            "otsikko" : "Warehouse Worker - Lidl Suomi",
-            "time" : "5/2023 - 8/2023\n6/2022 - 8/2022\n4/2021 - 8/2021",
-            "desc" : {
-                "1" : "Collecting orders in various storage areas of distribution centre using pallet truck",
-                "2" : "Maintaining the cleanliness of premises and tidiness of collection areas",
-                "3" : ""
-            }
-        }
+        "present" : "present"
     },
 
     "Edu": {
@@ -96,20 +53,6 @@
 
     "Pro": {
         "otsikko" : "Projects I have done",
-        "desc" : "",
-        "info" : {
-            "title" : "Exploratory Information Visualization",
-            "desc1" : "Interactive visualization exhibiting the impact of sea-level rise on population." 
-        },
-
-        "powerbi": {
-            "title" : "Hospital Patient Flow Dashboard",
-            "desc1" : "Implemented a Power BI semantic model and dashboard for analyzing hospital patient flow and operational metrics."
-        },
-
-        "digi": {
-            "title" : "Evaluating mental health trends from Reddit posts",
-            "desc1" : "An NLP-based analysis of Reddit posts examining whether changes in posting behavior and discussion topics during the COVID-19 pandemic reflect shifts in mental health needs."
-        }
+        "desc" : ""
     }
 }

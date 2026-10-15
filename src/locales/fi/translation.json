@@ -28,28 +28,7 @@
 
     "Work": {
         "otsikko" : "Työkokemus",
-        "varex" : {
-            "otsikko" : "Puhdashuone operaattori - Varex Imaging",
-            "time" : "5/2025 - 8/2025",
-            "desc" : "Flip-chip bondaus ja puolijohdekomponenttien testaaminen röntgensäteellä sekä ilman. ISO6-puhdastilastandardien noudattaminen."
-        },
-        "junior" : {
-            "otsikko" : "Ohjaaja - Aalto-yliopisto Junior",
-            "time" : "9/2024 - 5/2025",
-            "desc" : "Ohjaaminen ja opettaminen Robotiikkatuokiot -hankkeessa, jonka tavoitteena on edistää lasten ja nuorten oppilaiden teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista. Muut tehtävät, kuten materiaalien kääntäminen englanniksi ja selkokielelle.",
-            "time2" : "9/2025 - nyt",
-            "desc2" : "Ohjaaminen ja opettaminen tieteen ja teknologian työpajoissa, joiden tavoitteena on edistää lasten ja nuorten teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista."
-        },
-        "ge" : {
-            "otsikko" : "Tuotantotyöntekijä - GE HealthCare Finland",
-            "time" : "5/2024 - 8/2024",
-            "desc" : "Materiaalien keräily ja kuljetus potilasvalvontamoduulien ja -monitorien kokoonpanoon. Kokoonpanossa käytettävien materiaalien laadun tarkkailu."
-        },
-        "lidl" : {
-            "otsikko" : "Varastotyöntekijä - Lidl Suomi",
-            "time" : "5/2023 - 8/2023",
-            "desc" : "Myymälöiden tekemien tilausten keräily jakelukeskuksen eri varastoalueilla lavansiirtovaunua käyttäen. Toimintaympäristön siisteydestä ja keräilyalueiden järjestyksen ylläpidosta huolehtiminen."
-        }
+        "present" : "nyt"
     },
 
     "Edu": {
@@ -74,15 +53,6 @@
 
     "Pro": {
         "otsikko" : "Projektit",
-        "desc" : "",
-        "info" : {
-            "title" : "Informaation visualisointi",
-            "desc1" : "Interaktiivinen visualisaatio, joka esittää meren pinnan nousun vaikutusta populaatioon." 
-        },
-
-        "powerbi": {
-            "title" : "Sairaalan potilasvirtaus",
-            "desc1" : "Toteutin Power BI semanttisen mallin ja visualisoinnin sairaalan potilasvirran ja operatiivisten mittareiden analysointiin."
-        }
+        "desc" : ""
     }
 }
