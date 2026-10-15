@@ -1,24 +1,5 @@
-li {
-    list-style-type: none;
-    padding-right: 10px;
-    padding-left: 10px;
-    padding-bottom: 5px;
-}
-
-ul {
-    padding-bottom: 0;
-}
-
-a {
-    color: black;
-    text-decoration: none;
-    padding-left: 10px;
-}
-
-img {
-    height: 20px;
-    padding-top: 2px;
-}
+/* All rules here start with .desktop-navbar so they only affect the menu,
+   not links, lists or images elsewhere on the page. */
 
 .desktop-navbar {
     margin: auto;
@@ -29,7 +10,24 @@ img {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: start;
-    /* justify-content: space-between; */
+}
+
+.desktop-navbar li {
+    list-style-type: none;
+    padding-right: 10px;
+    padding-left: 10px;
+    padding-bottom: 5px;
+}
+
+.desktop-navbar a {
+    color: black;
+    text-decoration: none;
+    padding-left: 10px;
+}
+
+.desktop-navbar img {
+    height: 20px;
+    padding-top: 2px;
 }
 
 .desktop-nav-links {
@@ -46,4 +44,46 @@ img {
     padding-left: 20px;
 }
 
-html {scroll-behavior: smooth;}
+/* On phones and small tablets the menu becomes a bar across the top. The
+   links scroll sideways if they don't fit; the language picker stays put. */
+@media (max-width: 899px) {
+    .desktop-navbar {
+        flex-direction: row;
+        align-items: center;
+        gap: 8px;
+        padding: 6px 12px;
+        background: rgba(253, 248, 251, 0.85);
+        backdrop-filter: blur(8px);
+        -webkit-backdrop-filter: blur(8px);
+        box-shadow: 0 1px 8px rgba(37, 39, 41, 0.08);
+    }
+
+    .desktop-nav-links {
+        flex-direction: row;
+        align-items: center;
+        flex: 1;
+        min-width: 0;
+        margin: 0;
+        overflow-x: auto;
+        white-space: nowrap;
+        scrollbar-width: none;
+    }
+
+    .desktop-nav-links::-webkit-scrollbar {
+        display: none;
+    }
+
+    .desktop-navbar li {
+        display: flex;
+        align-items: center;
+        padding: 6px 4px;
+    }
+
+    .desktop-navbar a {
+        padding: 4px 6px;
+    }
+
+    .desktop-lang {
+        padding-left: 0;
+    }
+}

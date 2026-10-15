@@ -38,7 +38,8 @@ html {scroll-behavior: smooth;}
 }
 
 .hero-container h1 {
-    font-size: 100px;
+    font-size: clamp(56px, 11vw, 100px); /* smaller on narrow screens */
+    line-height: 1.05;
     margin: 0;
     padding-bottom: 10px;
 }
@@ -62,8 +63,13 @@ html {scroll-behavior: smooth;}
 
 }
 
+.links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 20px;
+}
+
 .links a {
-    padding-right: 15px;
     text-decoration: underline;
 }
 
@@ -110,8 +116,13 @@ html {scroll-behavior: smooth;}
 }
 
 .edu-content {
+    flex: 1;
     display: flex;
     flex-direction: column;
+}
+
+.edu-desc .desc {
+    flex: 1;
 }
 
 .year {
@@ -123,11 +134,33 @@ html {scroll-behavior: smooth;}
 .edu-desc {
     display: flex;
     flex-direction: row;
-    min-width: 700px;
     align-items: start;
     padding-bottom: 5%;
 }
 
-.masters {
-    line-height: 0.3;
+.masters p {
+    margin: 0;
+    line-height: 1.45;
+}
+
+/* Phones and small tablets: use most of the screen width. */
+@media (max-width: 899px) {
+    .main {
+        width: auto;
+        padding: 0 20px;
+    }
+
+    .hero-container {
+        padding-top: 20%;
+        padding-bottom: 30%;
+    }
+
+    .edu-container {
+        padding-left: 0;
+    }
+
+    .year {
+        margin-right: 16px;
+        padding-left: 12px;
+    }
 }

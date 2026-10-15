@@ -15,3 +15,19 @@ body {
 
 } */
 
+
+/* Buttons and the language picker don't use the page font by default. */
+button,
+select {
+  font-family: inherit;
+  color: inherit;
+}
+
+a {
+  color: inherit;
+}
+
+/* Keep section headings visible below the menu bar when jumping to them. */
+section {
+  scroll-margin-top: 64px;
+}
