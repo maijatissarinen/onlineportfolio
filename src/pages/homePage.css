@@ -98,49 +98,97 @@ html {scroll-behavior: smooth;}
     padding-top: 5%;
 }
 
-/* Education section */
+/* Education section: a vertical timeline with a dot for each degree */
 #edu {
     padding-top: 5%;
+    padding-bottom: 15%;
 }
 
-.edu-container {
-    display: flex;
-    flex-direction: row;
-    padding-bottom: 20%;
-    padding-top: 5%;
-    padding-left: 10%;
-}
-
-.edu-line {
-    border-left: 1px solid black;
-}
-
-.edu-content {
-    flex: 1;
-    display: flex;
-    flex-direction: column;
-}
-
-.edu-desc .desc {
-    flex: 1;
-}
-
-.year {
-    margin-right: 5%;
-    min-width: 40px;
-    padding-left: 3%;
-}
-
-.edu-desc {
-    display: flex;
-    flex-direction: row;
-    align-items: start;
-    padding-bottom: 5%;
-}
-
-.masters p {
+.timeline {
+    list-style: none;
     margin: 0;
-    line-height: 1.45;
+    padding: 5% 0 0;
+}
+
+/* Each degree is a row: year | dot on the line | text */
+.timeline-item {
+    display: grid;
+    grid-template-columns: 56px 28px 1fr;
+    column-gap: 16px;
+    padding: 0;
+}
+
+.timeline-year {
+    text-align: right;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+/* The line runs through the marker column from the first dot to the last. */
+.timeline-marker {
+    position: relative;
+}
+
+.timeline-marker::before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    translate: -50% 0;
+    background: #252729;
+    opacity: 0.35;
+}
+
+.timeline-item:first-child .timeline-marker::before {
+    top: 0.8em;
+}
+
+.timeline-item:last-child .timeline-marker::before {
+    bottom: auto;
+    height: 0.8em;
+}
+
+.timeline-marker::after {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: 0.8em;
+    width: 12px;
+    height: 12px;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: #252729;
+}
+
+/* The ongoing degree gets a hollow dot with a soft ring. */
+.timeline-item.is-current .timeline-marker::after {
+    width: 14px;
+    height: 14px;
+    background: #fdf8fb;
+    border: 3px solid #252729;
+    box-sizing: border-box;
+    box-shadow: 0 0 0 5px rgba(37, 39, 41, 0.12);
+}
+
+.timeline-content {
+    padding-bottom: 40px;
+}
+
+.timeline-item:last-child .timeline-content {
+    padding-bottom: 0;
+}
+
+.timeline-content h4 {
+    margin: 0 0 8px;
+    font-size: 1.15rem;
+    line-height: 1.6;
+}
+
+.timeline-content p {
+    margin: 0;
+    line-height: 1.5;
 }
 
 /* Phones and small tablets: use most of the screen width. */
@@ -155,12 +203,8 @@ html {scroll-behavior: smooth;}
         padding-bottom: 30%;
     }
 
-    .edu-container {
-        padding-left: 0;
-    }
-
-    .year {
-        margin-right: 16px;
-        padding-left: 12px;
+    .timeline-item {
+        grid-template-columns: 40px 20px 1fr;
+        column-gap: 12px;
     }
 }
