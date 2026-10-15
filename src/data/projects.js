@@ -9,6 +9,13 @@
 // To add a picture: put the image file in the public/projects/ folder and
 // write its file name as image: "my-picture.png". Leave image out for a card
 // without a picture. Wide pictures (screenshots) work best.
+//
+// By default the picture fills its space and the edges may be cropped, which
+// suits photos. For charts and figures that must be seen whole, add
+// imageFit: "contain" to show the entire picture on a white background.
+//
+// To link to a file of your own (e.g. a PDF report), put it in
+// public/projects/ too and use url: "projects/my-file.pdf".
 
 export const projects = [
 
@@ -22,9 +29,9 @@ export const projects = [
             en: "In this project, I integrated clinical, genomic and spatial omics data from ovarian cancer patients to predict progression-free survival. I built a feature selection pipeline (mRMR, LASSO) and trained interpretable regression and survival models, evaluated with patient-grouped cross-validation.",
             fi: "Projektissa yhdistin munasarjasyöpäpotilaiden kliinistä, genomista ja spatiaalista omiikkadataa etenemisvapaan elinajan ennustamiseksi. Rakensin piirrevalintaprosessin (mRMR, LASSO) ja koulutin tulkittavia regressio- ja elinaikamalleja, jotka arvioin potilaittain ryhmitellyllä ristiinvalidoinnilla.",
         },
-        image: "research_project_photo.png",
+        image: "research_project_photo.jpg",
         links: [
-            { label: "Report", url: "./public/projects/Special_Assignment_Final_report_vol_2.pdf" },
+            { label: "Report", url: "projects/Special_Assignment_Final_report_vol_2.pdf" },
             // { label: "GitHub", url: "https://github.com/maijatissarinen/explorativeinfovis" },
         ],
     },
@@ -55,6 +62,7 @@ export const projects = [
             fi: "Computational Social Science -kurssin ryhmäprojektissa analysoimme 1 245 merkittävää kyberhyökkäystä CSIS-tietokannasta. Luokittelimme tapaukset kohdesektorin mukaan luonnollisen kielen käsittelyn (NLP) menetelmillä ja yhdistimme aikasarja-analyysin avulla kohdentumisen muutokset geopoliittisiin tapahtumiin. Toteutin analyysin siitä, mihin sektoreihin eri hyökkääjämaat kohdistavat hyökkäyksiään, ja arvioin, miten aineiston alkuperä vaikuttaa sen antamaan geopoliittiseen kuvaan.",
         },
         image: "sektori_trendit_kokonaisvuodet-2.png",
+        imageFit: "contain",
         links: [],
     },
     {
