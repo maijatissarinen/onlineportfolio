@@ -28,4 +28,10 @@ i18n
     defaultNS: "translation"
   });
 
+// Tell browsers and screen readers which language the page is in.
+document.documentElement.lang = i18n.language;
+i18n.on("languageChanged", (lng) => {
+  document.documentElement.lang = lng;
+});
+
 export default i18n;
