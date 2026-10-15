@@ -36,7 +36,10 @@ export const jobs = [
             en: "Instructor - Aalto University Junior",
             fi: "Ohjaaja - Aalto-yliopisto Junior",
         },
-        periods: [{ from: "9/2025", to: null }],
+        periods: [
+            { from: "9/2024", to: "5/2025" },
+            { from: "9/2025", to: "5/2026" },
+            { from: "9/2026", to: null}],
         bullets: {
             en: [
                 "Taught science and technology workshops to groups of 20-30 pupils, adjusting teaching style to suit different groups",
@@ -63,24 +66,6 @@ export const jobs = [
             ],
             fi: [
                 "Flip-chip bondaus ja puolijohdekomponenttien testaaminen röntgensäteellä sekä ilman. ISO6-puhdastilastandardien noudattaminen.",
-            ],
-        },
-    },
-    {
-        show: true,
-        title: {
-            en: "Instructor - Aalto University Junior",
-            fi: "Ohjaaja - Aalto-yliopisto Junior",
-        },
-        periods: [{ from: "9/2024", to: "5/2025" }],
-        bullets: {
-            en: [
-                "Taught robotics workshops to mostly elementary school groups",
-                "Presented complex topics clearly to children and young pupils at events and workshops",
-                "Communicated with teachers via email about bookings",
-            ],
-            fi: [
-                "Ohjaaminen ja opettaminen Robotiikkatuokiot -hankkeessa, jonka tavoitteena on edistää lasten ja nuorten oppilaiden teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista. Muut tehtävät, kuten materiaalien kääntäminen englanniksi ja selkokielelle.",
             ],
         },
     },
