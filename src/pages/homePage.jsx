@@ -69,6 +69,7 @@ function HomePage() {
                         title: localize(project.title, i18n.language),
                         description: localize(project.description, i18n.language),
                         links: project.links,
+                        image: project.image && `${import.meta.env.BASE_URL}projects/${project.image}`,
                     }))} />
             </section>    
 
