@@ -31,12 +31,12 @@ export const projects = [
     {
         show: true,
         title: {
-            en: "Exploratory Information Visualization",
-            fi: "Informaation visualisointi",
+            en: "Visualizing sea level rise and its human impact in Europe",
+            fi: "Merenpinnan nousun ja sen ihmisvaikutusten visualisointi Euroopassa",
         },
         description: {
-            en: "Interactive visualization exhibiting the impact of sea-level rise on population. The goal was to visualize",
-            fi: "Interaktiivinen visualisaatio, joka esittää meren pinnan nousun vaikutusta populaatioon.",
+            en: "In this information visualization course project, I built an animated D3.js visualization of a globe sinking as sea levels rise under the IPCC SSP5-8.5 scenario. European countries are colored by the population projected to be exposed to coastal flooding, based on European Commission JRC data.",
+            fi: "Informaation visualisoinnin kurssiprojektissa toteutin D3.js:llä animaation maapallosta, joka vajoaa merenpinnan noustessa IPCC:n SSP5-8.5-skenaarion mukaisesti. Euroopan maat väritetään rannikkotulville altistuvan väestön mukaan Euroopan komission JRC:n aineiston pohjalta.",
         },
         image: "exploratoryinfovis.png",
         links: [
