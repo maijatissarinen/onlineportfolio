@@ -23,4 +23,7 @@ I am currently looking for a summer position or thesis opportunity where I can a
 - JavaScript
 - React
 
-The help of AI was used building this portfolio.
+## Built with Claude Code
+I rebuilt this portfolio while exploring how an AI coding agent fits into a
+real development workflow. I made the design and product decisions, reviewed
+every change as a pull request, and tested the results myself.
