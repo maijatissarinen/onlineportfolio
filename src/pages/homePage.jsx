@@ -1,6 +1,6 @@
 import React from 'react';
 import AccordionItem from '../components/accordionItem';
-import ProjectCard from '../components/projectCard';
+import ProjectStack from '../components/projectStack';
 import { projects } from '../data/projects';
 import { jobs } from '../data/work';
 import { localize } from '../data/localize';
@@ -63,15 +63,14 @@ function HomePage() {
             <section id="projects">
                 <h1>{t("Pro.otsikko")}</h1>
                 <p>{t("Pro.desc")}</p>
-                <ul className="projects-container">
-                    {projects.filter((project) => project.show).map((project) => (
-                        <ProjectCard
-                            key={project.title.en}
-                            title={localize(project.title, i18n.language)}
-                            description={localize(project.description, i18n.language)}
-                            links={project.links} />
-                    ))}
-                </ul>
+                <ProjectStack
+                    projects={projects.filter((project) => project.show).map((project) => ({
+                        key: project.title.en,
+                        title: localize(project.title, i18n.language),
+                        description: localize(project.description, i18n.language),
+                        links: project.links,
+                        image: project.image && `${import.meta.env.BASE_URL}projects/${project.image}`,
+                    }))} />
             </section>    
 
             <section id="work">

@@ -5,6 +5,10 @@
 // version. If the Finnish one is missing, the English one is shown instead.
 //
 // To hide a project without deleting it, set show: false.
+//
+// To add a picture: put the image file in the public/projects/ folder and
+// write its file name as image: "my-picture.png". Leave image out for a card
+// without a picture. Wide pictures (screenshots) work best.
 
 export const projects = [
     {
@@ -17,6 +21,7 @@ export const projects = [
             en: "Interactive visualization exhibiting the impact of sea-level rise on population.",
             fi: "Interaktiivinen visualisaatio, joka esittää meren pinnan nousun vaikutusta populaatioon.",
         },
+        image: "exploratoryinfovis.png",
         links: [
             { label: "Live demo", url: "https://maijatissarinen.github.io/explorativeinfovis" },
             { label: "GitHub", url: "https://github.com/maijatissarinen/explorativeinfovis" },
