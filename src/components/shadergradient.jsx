@@ -11,8 +11,8 @@ export default function GradientBackground() {
                 bgColor2="#000000"
                 brightness={1.2}
                 cAzimuthAngle={180}
-                cDistance={1}
-                cPolarAngle={120}
+                cDistance={6}
+                cPolarAngle={90}
                 cameraZoom={1}
                 color1="#ebedff"
                 color2="#f4daf8"

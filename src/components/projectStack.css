@@ -1,0 +1,198 @@
+/* The stack is wider than the text column and centred on the page. */
+.project-stack {
+    width: min(920px, 92vw);
+    margin-left: 50%;
+    translate: -50% 0;
+    padding-top: 2%;
+}
+
+/* All cards sit in the same grid cell, so the stack is as tall as the
+   tallest card and the cards lie on top of each other. */
+.project-stack-cards {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr); /* let cards shrink on narrow screens */
+    padding-bottom: 36px; /* room for the cards peeking out below */
+    touch-action: pan-y; /* let the page scroll vertically while swiping sideways */
+}
+
+.project-stack-slot {
+    grid-area: 1 / 1;
+    /* Cards further back are smaller, lower and fainter. */
+    transform:
+        translateX(calc(var(--drag) * 1px))
+        translateY(calc(var(--depth) * 16px))
+        scale(calc(1 - var(--depth) * 0.05))
+        rotate(calc(var(--drag) * 0.04deg));
+    transform-origin: 50% 100%;
+    opacity: calc(1 - var(--depth) * 0.25);
+    transition: transform 0.45s cubic-bezier(0.2, 0.8, 0.2, 1), opacity 0.45s ease;
+}
+
+/* Only the front card shows its content; the ones behind look like blank
+   cards peeking out. */
+.project-card > * {
+    transition: opacity 0.3s ease;
+}
+
+.project-stack-slot:not(.is-front) .project-card > * {
+    opacity: 0;
+}
+
+.project-stack-slot.is-front {
+    cursor: grab;
+}
+
+.project-stack-slot.is-dragging {
+    cursor: grabbing;
+    transition: none;
+    user-select: none;
+}
+
+/* Cards deeper in the stack wait out of sight. */
+.project-stack-slot.is-hidden {
+    opacity: 0;
+}
+
+/* The card that was just swiped away flies out to the left before
+   joining the back of the stack. */
+.project-stack-slot.is-leaving {
+    transform: translateX(-110%) rotate(-8deg);
+    opacity: 0;
+}
+
+.project-card {
+    box-sizing: border-box;
+    height: 100%;
+    min-height: 260px;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden; /* keeps the picture inside the rounded corners */
+    overflow-wrap: break-word;
+    border-radius: 20px;
+    background: #fdf8fb;
+    box-shadow: 0 12px 32px rgba(37, 39, 41, 0.12);
+}
+
+/* The picture fills its frame and is cropped to fit, whatever its size. */
+.project-card-media {
+    position: relative;
+    aspect-ratio: 16 / 9;
+    background: #f3e6ee;
+}
+
+.project-card-media img {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.project-card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 28px 32px;
+}
+
+/* On wider screens the picture sits on the left and the text on the right. */
+@media (min-width: 900px) {
+    .project-card {
+        min-height: 340px;
+    }
+
+    .project-card.has-image {
+        flex-direction: row;
+    }
+
+    .project-card.has-image .project-card-media {
+        flex: 0 0 55%;
+        aspect-ratio: auto;
+    }
+
+    .project-card-body {
+        padding: 40px 44px;
+    }
+}
+
+.project-card h4 {
+    margin: 0 0 12px;
+    font-size: 1.4rem;
+}
+
+.project-card p {
+    margin: 0;
+    line-height: 1.5;
+}
+
+.project-card .links {
+    margin-top: auto;
+    padding-top: 20px;
+}
+
+.project-card .links a {
+    white-space: nowrap;
+}
+
+.project-stack-controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+}
+
+.project-stack-arrow {
+    width: 44px;
+    height: 44px;
+    border: 1px solid #252729;
+    border-radius: 50%;
+    background: transparent;
+    color: #252729;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.project-stack-arrow:hover {
+    background: #252729;
+    color: #fff;
+}
+
+.project-stack-dots {
+    display: flex;
+    gap: 8px;
+}
+
+.project-stack-dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 1px solid #252729;
+    border-radius: 50%;
+    background: transparent;
+    cursor: pointer;
+}
+
+.project-stack-dot.is-active {
+    background: #252729;
+}
+
+.project-stack-arrow:focus-visible,
+.project-stack-dot:focus-visible {
+    outline: 2px solid #252729;
+    outline-offset: 3px;
+}
+
+.project-stack-status {
+    margin: 8px 0 0;
+    text-align: center;
+    font-size: 0.85rem;
+    opacity: 0.7;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .project-stack-slot,
+    .project-card > * {
+        transition: none;
+    }
+}

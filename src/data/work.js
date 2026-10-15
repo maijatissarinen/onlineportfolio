@@ -11,6 +11,23 @@
 
 export const jobs = [
     {
+         title: {
+            en: "Research assistant - University of Helsinki",
+            fi: "Tutkimusavustaja - Helsingin yliopisto",
+        },
+        periods: [{ from: "4/2026", to: "8/2026" }],
+        bullets: {
+            en: [
+                "Built an end-to-end Python pipeline from multi-omics data integration and preprocessing ot modeling and evaluation",
+                "Trained and evaluated survival and machine learning models to predict progression-free survival in chemotherapy-treated cancer patients (n=37)",
+                "Applied feature selection and nested cross-validation to handle small sample size and high-dimensional data"
+            ],
+            fi: [
+                "Ohjaaminen ja opettaminen tieteen ja teknologian työpajoissa, joiden tavoitteena on edistää lasten ja nuorten teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista.",
+            ],
+        },
+    },
+    {
         title: {
             en: "Instructor - Aalto University Junior",
             fi: "Ohjaaja - Aalto-yliopisto Junior",
