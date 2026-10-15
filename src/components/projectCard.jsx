@@ -2,7 +2,7 @@ import React from "react";
 
 function ProjectCard({title, description, links}) {
     return(
-        <li className="projects-card">
+        <article className="project-card">
             <h4>{title}</h4>
             <p>{description}</p>
             <p className="links">
@@ -10,7 +10,7 @@ function ProjectCard({title, description, links}) {
                     <a key={link.url} href={link.url}>{link.label}</a>
                 ))}
             </p>
-        </li>
+        </article>
     );
 };
 export default ProjectCard;
