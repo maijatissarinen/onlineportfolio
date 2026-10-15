@@ -14,7 +14,7 @@
 export const jobs = [
     {
         show: true,
-         title: {
+        title: {
             en: "Research assistant - University of Helsinki",
             fi: "Tutkimusavustaja - Helsingin yliopisto",
         },
@@ -23,10 +23,12 @@ export const jobs = [
             en: [
                 "Built an end-to-end Python pipeline from multi-omics data integration and preprocessing ot modeling and evaluation",
                 "Trained and evaluated survival and machine learning models to predict progression-free survival in chemotherapy-treated cancer patients (n=37)",
-                "Applied feature selection and nested cross-validation to handle small sample size and high-dimensional data"
+                "Applied feature selection and nested cross-validation to handle small sample size and high-dimensional data",
             ],
             fi: [
-                "Ohjaaminen ja opettaminen tieteen ja teknologian työpajoissa, joiden tavoitteena on edistää lasten ja nuorten teknologiakasvatusta. Yhteydenpito ja kommunikointi opettajien kanssa varauksista.",
+                "Rakensin kokonaisvaltaisen Python-analyysiputken multiomiikkadatan integroinnista ja esikäsittelystä mallinnukseen ja arviointiin",
+                "Koulutin ja arvioin elinaika-analyysi- ja koneoppimismalleja ennustamaan etenemisvapaata elinaikaa solunsalpaajahoitoa saaneilla syöpäpotilailla (n=37)",
+                "Sovelsin piirteiden valintaa ja sisäkkäistä ristiinvalidointia pienen otoskoon ja korkeaulotteisen datan haasteiden ratkaisemiseksi",
             ],
         },
     },
@@ -88,7 +90,7 @@ export const jobs = [
         },
     },
     {
-        show: true,
+        show: false,
         title: {
             en: "Warehouse Worker - Lidl Suomi",
             fi: "Varastotyöntekijä - Lidl Suomi",

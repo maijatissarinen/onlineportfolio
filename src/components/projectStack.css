@@ -63,7 +63,7 @@
 .project-card {
     box-sizing: border-box;
     height: 100%;
-    min-height: 260px;
+    min-height: 400px;
     display: flex;
     flex-direction: column;
     overflow: hidden; /* keeps the picture inside the rounded corners */

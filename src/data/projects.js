@@ -11,6 +11,7 @@
 // without a picture. Wide pictures (screenshots) work best.
 
 export const projects = [
+
     {
         show: true,
         title: {
@@ -18,12 +19,12 @@ export const projects = [
             fi: "Multiomiikka datan integrointi ja potilastason kliinisten tulosten mallintaminen",
         },
         description: {
-            en: "Interactive visualization exhibiting the impact of sea-level rise on population.",
-            fi: "Interaktiivinen visualisaatio, joka esittää meren pinnan nousun vaikutusta populaatioon.",
+            en: "In this project, I integrated clinical, genomic and spatial omics data from ovarian cancer patients to predict progression-free survival. I built a feature selection pipeline (mRMR, LASSO) and trained interpretable regression and survival models, evaluated with patient-grouped cross-validation.",
+            fi: "Projektissa yhdistin munasarjasyöpäpotilaiden kliinistä, genomista ja spatiaalista omiikkadataa etenemisvapaan elinajan ennustamiseksi. Rakensin piirrevalintaprosessin (mRMR, LASSO) ja koulutin tulkittavia regressio- ja elinaikamalleja, jotka arvioin potilaittain ryhmitellyllä ristiinvalidoinnilla.",
         },
-        image: "exploratoryinfovis.png",
+        image: "research_project_photo.png",
         links: [
-            { label: "Report", url: "https://maijatissarinen.github.io/explorativeinfovis" },
+            { label: "Report", url: "./public/projects/Special_Assignment_Final_report_vol_2.pdf" },
             // { label: "GitHub", url: "https://github.com/maijatissarinen/explorativeinfovis" },
         ],
     },
@@ -34,7 +35,7 @@ export const projects = [
             fi: "Informaation visualisointi",
         },
         description: {
-            en: "Interactive visualization exhibiting the impact of sea-level rise on population.",
+            en: "Interactive visualization exhibiting the impact of sea-level rise on population. The goal was to visualize",
             fi: "Interaktiivinen visualisaatio, joka esittää meren pinnan nousun vaikutusta populaatioon.",
         },
         image: "exploratoryinfovis.png",
@@ -43,8 +44,21 @@ export const projects = [
             { label: "GitHub", url: "https://github.com/maijatissarinen/explorativeinfovis" },
         ],
     },
-    {
+        {
         show: true,
+        title: {
+            en: "Trends in cyber incident targeting across societal sectors",
+            fi: "Kyberhyökkäysten kohdentumisen trendit yhteiskunnan eri sektoreilla",
+        },
+        description: {          
+            en: "In this Computational Social Science group project, we analyzed 1,245 major cyber incidents from the CSIS database. We classified the incidents by targeted sector with NLP methods and used time-series analysis to link shifts in targeting to geopolitical events. I built the analysis of which sectors each attacker country targets and assessed how the dataset's origin shapes the geopolitical picture it gives.",
+            fi: "Computational Social Science -kurssin ryhmäprojektissa analysoimme 1 245 merkittävää kyberhyökkäystä CSIS-tietokannasta. Luokittelimme tapaukset kohdesektorin mukaan luonnollisen kielen käsittelyn (NLP) menetelmillä ja yhdistimme aikasarja-analyysin avulla kohdentumisen muutokset geopoliittisiin tapahtumiin. Toteutin analyysin siitä, mihin sektoreihin eri hyökkääjämaat kohdistavat hyökkäyksiään, ja arvioin, miten aineiston alkuperä vaikuttaa sen antamaan geopoliittiseen kuvaan.",
+        },
+        image: "sektori_trendit_kokonaisvuodet-2.png",
+        links: [],
+    },
+    {
+        show: false,
         title: {
             en: "Hospital Patient Flow Dashboard",
             fi: "Sairaalan potilasvirtaus",
