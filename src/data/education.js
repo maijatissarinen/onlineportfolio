@@ -20,12 +20,14 @@ export const education = [
                 "Computer, Communications and Information Sciences (CCIS)",
                 "School of Science",
                 "Aalto University",
+                "Courses: Deep Learning, Supervised Machine Learning, Methods of Data Mining"
             ],
             fi: [
                 "Machine Learning, Data Science and Artificial Intelligence",
                 "Computer, Communications and Information Sciences (CCIS)",
                 "Perustieteiden korkeakoulu",
                 "Aalto-yliopisto",
+                "Kursseja: Deep Learning, Supervised Machine Learning, Methods of Data Mining"
             ],
         },
     },
@@ -40,11 +42,13 @@ export const education = [
                 "Bioinformation technology",
                 "School of Electrical Engineering",
                 "Aalto University",
+                "Bachelor's thesis: Transcranial magnetic stimulation in post-stroke recovery: A systematic review. (Grade 5/5)"
             ],
             fi: [
                 "Bioinformaatioteknologia",
                 "Sähkötekniikan korkeakoulu",
                 "Aalto-yliopisto",
+                "Kandidaatin tutkielma: Transkraniaalinen magneettistimulaatio aivohalvauksen jälkeisessä kuntoutuksessa. (Arvosana 5/5)"
             ],
         },
     },
