@@ -21,7 +21,7 @@ export const jobs = [
         periods: [{ from: "4/2026", to: "8/2026" }],
         bullets: {
             en: [
-                "Built an end-to-end Python pipeline from multi-omics data integration and preprocessing ot modeling and evaluation",
+                "Built an end-to-end Python pipeline from multi-omics data integration and preprocessing to modeling and evaluation",
                 "Trained and evaluated survival and machine learning models to predict progression-free survival in chemotherapy-treated cancer patients (n=37)",
                 "Applied feature selection and nested cross-validation to handle small sample size and high-dimensional data",
             ],
@@ -62,7 +62,7 @@ export const jobs = [
         periods: [{ from: "5/2025", to: "8/2025" }],
         bullets: {
             en: [
-                "Performed flip-chip bonding and testing of semiconductor components with and without X-ray in a ISO6 cleanroom environment",
+                "Performed flip-chip bonding and testing of semiconductor components with and without X-ray in an ISO6 cleanroom environment",
                 "Worked as part of an international, multidisciplinary team",
                 "Analyzed component quality and test results to maintain production standards",
             ],
@@ -82,7 +82,7 @@ export const jobs = [
             en: [
                 "Collecting and delivering materials for the assembly of patient monitoring modules and monitors",
                 "Monitoring the quality of the materials used in the assembly",
-                "Worked a part of a team to support smooth and timely production",
+                "Worked as part of a team to support smooth and timely production",
             ],
             fi: [
                 "Materiaalien keräily ja kuljetus potilasvalvontamoduulien ja -monitorien kokoonpanoon. Kokoonpanossa käytettävien materiaalien laadun tarkkailu.",

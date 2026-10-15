@@ -1,10 +1,10 @@
 import React from "react";
 
-function ProjectCard({title, description, links, image}) {
+function ProjectCard({title, description, links, image, imageFit}) {
     return(
         <article className={`project-card${image ? " has-image" : ""}`}>
             {image && (
-                <div className="project-card-media">
+                <div className={`project-card-media${imageFit === "contain" ? " is-contain" : ""}`}>
                     <img src={image} alt="" draggable="false" />
                 </div>
             )}

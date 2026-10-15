@@ -62,8 +62,12 @@ function HomePage() {
                         key: project.title.en,
                         title: localize(project.title, i18n.language),
                         description: localize(project.description, i18n.language),
-                        links: project.links,
+                        // Links to your own files ("projects/report.pdf") get the site's address in front.
+                        links: project.links.map((link) => (
+                            /^(https?:|mailto:)/.test(link.url) ? link : { ...link, url: `${import.meta.env.BASE_URL}${link.url}` }
+                        )),
                         image: project.image && `${import.meta.env.BASE_URL}projects/${project.image}`,
+                        imageFit: project.imageFit,
                     }))} />
             </section>    
 
