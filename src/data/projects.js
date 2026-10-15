@@ -14,6 +14,22 @@ export const projects = [
     {
         show: true,
         title: {
+            en: "Integrating multiomics data to predict clinical outcomes in high-grade serous ovarian cancer",
+            fi: "Informaation visualisointi",
+        },
+        description: {
+            en: "Interactive visualization exhibiting the impact of sea-level rise on population.",
+            fi: "Interaktiivinen visualisaatio, joka esittää meren pinnan nousun vaikutusta populaatioon.",
+        },
+        image: "exploratoryinfovis.png",
+        links: [
+            { label: "Report", url: "https://maijatissarinen.github.io/explorativeinfovis" },
+            { label: "GitHub", url: "https://github.com/maijatissarinen/explorativeinfovis" },
+        ],
+    },
+    {
+        show: true,
+        title: {
             en: "Exploratory Information Visualization",
             fi: "Informaation visualisointi",
         },

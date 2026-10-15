@@ -4,6 +4,9 @@ import ProjectStack from '../components/projectStack';
 import { projects } from '../data/projects';
 import { jobs } from '../data/work';
 import { localize } from '../data/localize';
+import { hero, about, skills } from '../data/about';
+import { education } from '../data/education';
+import RichText from '../components/richText';
 import './homePage.css'
 import './haitari.css'
 import { useTranslation } from 'react-i18next';
@@ -17,46 +20,37 @@ function HomePage() {
                 <div className="hero-container">
                     {/*<img id="heroimage" src='./imgs/Cv kuva 2025.png' alt="kuva"></img>*/}
                     <div className="herotext">
-                        <h1>{t("Hero.otsikko2")}</h1>
-                        <h3>{t("Hero.otsikko3")}</h3>
-                        <h3>{t("Hero.otsikko4")}</h3>
+                        <h1>{localize(hero.greeting, i18n.language)}</h1>
+                        {localize(hero.lines, i18n.language).map((line, index) => (
+                            <h3 key={index}>{line}</h3>
+                        ))}
                     </div>
                 </div>
             </section>
 
             <section id="about">
                 <div className="about-container">
-                    <h1>{t("About.aboutOtsikko")}</h1>
+                    <h1>{localize(about.heading, i18n.language)}</h1>
                     <article className="about-desc">
-                        <p>{t("About.about1")}</p>
-                        <p>{t("About.about2")}</p>
-                        <p>{t("About.about4")}<strong>{t("About.about5")}</strong>{t("About.about6")}</p>
-                        
+                        {localize(about.paragraphs, i18n.language).map((paragraph, index) => (
+                            <p key={index}><RichText text={paragraph} /></p>
+                        ))}
                     </article>
-                    {/* <div className="about-skills">
-                        <p>{t("About.skills")}</p>
-                        <h4>{t("About.code")}</h4>
-                        <div className="tech">
-                            <li>Python</li>
-                            <li>Numpy</li>
-                            <li>pandas</li>
-                            <li>Scikit-learn</li>
-                            <li>seaborn</li>
-                            <li>PyTorch</li>
-                            <li>R</li>
-                            <li>SQL</li>
-                            <li>HTML</li>
-                            <li>CSS</li>
-                            <li>JavaScript</li>
-                            <li>React</li>
+                    {skills.show && (
+                        <div className="about-skills">
+                            <p>{localize(skills.intro, i18n.language)}</p>
+                            {skills.groups.map((group, index) => (
+                                <React.Fragment key={index}>
+                                    <h4>{localize(group.title, i18n.language)}</h4>
+                                    <ul className="tech">
+                                        {group.items.map((item) => (
+                                            <li key={item}>{item}</li>
+                                        ))}
+                                    </ul>
+                                </React.Fragment>
+                            ))}
                         </div>
-                        <h4>{t("About.tools")}</h4>
-                        <div className="tech">
-                            <li>PowerBI</li>
-                            <li>Microsoft O365</li>
-                            <li>GitHub</li>
-                        </div>
-                    </div> */}
+                    )}
                 </div>
             </section>
 
@@ -91,33 +85,21 @@ function HomePage() {
                 <div className="edu-container">
                     <div className="edu-line"></div>
                     <div className="edu-content">
-                        <div className="edu-desc">
-                            <div className="year">
-                                <p><strong>{t("Edu.now.time")}</strong></p>
+                        {education.map((degree, index) => (
+                            <div className="edu-desc" key={index}>
+                                <div className="year">
+                                    <p><strong>{degree.year}</strong></p>
+                                </div>
+                                <div className="desc">
+                                    <p><strong>{localize(degree.title, i18n.language)}</strong></p>
+                                    <article className="masters">
+                                        {localize(degree.details, i18n.language).map((line, lineIndex) => (
+                                            <p key={lineIndex}>{line}</p>
+                                        ))}
+                                    </article>
+                                </div>
                             </div>
-                            <div className="desc">
-                                <p><strong>{t("Edu.now.title")}</strong></p>
-                                <article className="masters">
-                                    <p>{t("Edu.now.major")}</p>
-                                    <p>{t("Edu.now.program")}</p>
-                                    <p>{t("Edu.now.school")}</p>
-                                    <p>{t("Edu.now.uni")}</p>
-                                </article>
-                            </div>
-                        </div>
-                        <div className="edu-desc">
-                            <div className="year">
-                                <p><strong>{t("Edu.bachelor.time")}</strong></p>
-                            </div>
-                            <div className="desc">
-                                <p><strong>{t("Edu.bachelor.title")}</strong></p>
-                                <article className="masters">
-                                    <p>{t("Edu.bachelor.major")}</p>
-                                    <p>{t("Edu.bachelor.school")}</p>
-                                    <p>{t("Edu.bachelor.uni")}</p>
-                                </article>
-                            </div>
-                        </div>
+                        ))}
                     </div>
                 </div>
             </section>
