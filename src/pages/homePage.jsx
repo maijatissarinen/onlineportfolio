@@ -71,19 +71,6 @@ function HomePage() {
                     }))} />
             </section>    
 
-            <section id="work">
-                <h1>{t("Work.otsikko")}</h1>
-                <div className="work-content">
-                    {jobs.filter((job) => job.show !== false).map((job, index) => (
-                        <AccordionItem
-                            key={index}
-                            title={localize(job.title, i18n.language)}
-                            periods={job.periods.map((period) => `${period.from} - ${period.to ?? t("Work.present")}`)}
-                            bullets={localize(job.bullets, i18n.language)} />
-                    ))}
-                </div>
-            </section>
-
             <section id="edu">
                 <h1>{t("Edu.otsikko")}</h1>
                 <ol className="timeline">
@@ -100,6 +87,19 @@ function HomePage() {
                         </li>
                     ))}
                 </ol>
+            </section>
+
+            <section id="work">
+                <h1>{t("Work.otsikko")}</h1>
+                <div className="work-content">
+                    {jobs.filter((job) => job.show !== false).map((job, index) => (
+                        <AccordionItem
+                            key={index}
+                            title={localize(job.title, i18n.language)}
+                            periods={job.periods.map((period) => `${period.from} - ${period.to ?? t("Work.present")}`)}
+                            bullets={localize(job.bullets, i18n.language)} />
+                    ))}
+                </div>
             </section>
       
         </div>
