@@ -2,7 +2,10 @@
    not links, lists or images elsewhere on the page. */
 
 .desktop-navbar {
-    margin: auto;
+    /* Only as wide as the links: a full-width box would sit invisibly on top
+       of the page and catch clicks meant for things underneath it. */
+    width: fit-content;
+    margin: 0;
     position: sticky;
     top: 0;
     z-index: 1;
@@ -48,6 +51,7 @@
    links scroll sideways if they don't fit; the language picker stays put. */
 @media (max-width: 899px) {
     .desktop-navbar {
+        width: auto;
         flex-direction: row;
         align-items: center;
         gap: 8px;

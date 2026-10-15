@@ -88,6 +88,17 @@
     object-fit: cover;
 }
 
+/* imageFit: "contain" shows the whole picture, e.g. a chart, on white. */
+.project-card-media.is-contain {
+    background: #fff;
+}
+
+.project-card-media.is-contain img {
+    box-sizing: border-box;
+    padding: 12px;
+    object-fit: contain;
+}
+
 .project-card-body {
     flex: 1;
     display: flex;
