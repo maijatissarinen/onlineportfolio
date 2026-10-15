@@ -12,7 +12,8 @@
     },
 
     "Edu": {
-        "otsikko" : "Koulutus"
+        "otsikko" : "Koulutus",
+        "now" : "nyt"
     },
 
     "Pro": {

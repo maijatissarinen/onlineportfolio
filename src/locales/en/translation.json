@@ -12,7 +12,8 @@
     },
 
     "Edu": {
-        "otsikko" : "Education"
+        "otsikko" : "Education",
+        "now" : "now"
     },
 
     "Pro": {

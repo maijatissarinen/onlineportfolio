@@ -4,7 +4,8 @@
 // list and change the text. Each text has an English (en) and a Finnish (fi)
 // version. If the Finnish one is missing, the English one is shown instead.
 //
-// year: shown next to the timeline; leave it as "" for an ongoing degree.
+// year: shown next to the dot on the timeline; leave it as "" for an ongoing
+// degree and it is shown as "now" / "nyt".
 // details: one line each (major, programme, school, university, ...).
 
 export const education = [

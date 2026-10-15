@@ -70,7 +70,7 @@ function HomePage() {
             <section id="work">
                 <h1>{t("Work.otsikko")}</h1>
                 <div className="work-content">
-                    {jobs.map((job, index) => (
+                    {jobs.filter((job) => job.show !== false).map((job, index) => (
                         <AccordionItem
                             key={index}
                             title={localize(job.title, i18n.language)}
@@ -82,26 +82,20 @@ function HomePage() {
 
             <section id="edu">
                 <h1>{t("Edu.otsikko")}</h1>
-                <div className="edu-container">
-                    <div className="edu-line"></div>
-                    <div className="edu-content">
-                        {education.map((degree, index) => (
-                            <div className="edu-desc" key={index}>
-                                <div className="year">
-                                    <p><strong>{degree.year}</strong></p>
-                                </div>
-                                <div className="desc">
-                                    <p><strong>{localize(degree.title, i18n.language)}</strong></p>
-                                    <article className="masters">
-                                        {localize(degree.details, i18n.language).map((line, lineIndex) => (
-                                            <p key={lineIndex}>{line}</p>
-                                        ))}
-                                    </article>
-                                </div>
+                <ol className="timeline">
+                    {education.map((degree, index) => (
+                        <li className={`timeline-item${degree.year ? "" : " is-current"}`} key={index}>
+                            <span className="timeline-year">{degree.year || t("Edu.now")}</span>
+                            <span className="timeline-marker" aria-hidden="true"></span>
+                            <div className="timeline-content">
+                                <h4>{localize(degree.title, i18n.language)}</h4>
+                                {localize(degree.details, i18n.language).map((line, lineIndex) => (
+                                    <p key={lineIndex}>{line}</p>
+                                ))}
                             </div>
-                        ))}
-                    </div>
-                </div>
+                        </li>
+                    ))}
+                </ol>
             </section>
       
         </div>

@@ -8,9 +8,12 @@
 // you still have; it is shown as "present" / "nyt".
 // bullets: as many points as you like, and the two languages can have a
 // different number of them.
+//
+// To hide a job without deleting it, set show: false.
 
 export const jobs = [
     {
+        show: true,
          title: {
             en: "Research assistant - University of Helsinki",
             fi: "Tutkimusavustaja - Helsingin yliopisto",
@@ -28,6 +31,7 @@ export const jobs = [
         },
     },
     {
+        show: true,
         title: {
             en: "Instructor - Aalto University Junior",
             fi: "Ohjaaja - Aalto-yliopisto Junior",
@@ -45,6 +49,7 @@ export const jobs = [
         },
     },
     {
+        show: true,
         title: {
             en: "Cleanroom operator - Varex Imaging",
             fi: "Puhdashuone operaattori - Varex Imaging",
@@ -62,6 +67,7 @@ export const jobs = [
         },
     },
     {
+        show: true,
         title: {
             en: "Instructor - Aalto University Junior",
             fi: "Ohjaaja - Aalto-yliopisto Junior",
@@ -79,6 +85,7 @@ export const jobs = [
         },
     },
     {
+        show: true,
         title: {
             en: "Production Worker - GE HealthCare Finland",
             fi: "Tuotantotyöntekijä - GE HealthCare Finland",
@@ -96,6 +103,7 @@ export const jobs = [
         },
     },
     {
+        show: true,
         title: {
             en: "Warehouse Worker - Lidl Suomi",
             fi: "Varastotyöntekijä - Lidl Suomi",
